@@ -1,0 +1,96 @@
+import React from 'react';
+import './index.css';
+
+export default function PaginaVinteSeis() {
+  return (
+    <div className='main-container26'>
+      <button className='button-group26'>
+        <div className='rectangle26' />
+        <div className='rectangle-126' />
+        <div className='rectangle-226' />
+        <span className='livros-acqa26'>
+          Livros de Ana Cláudia Quintana Arantes. <br />
+          Site: acqa
+        </span>
+        <div className='link-icon26'>
+          <div className='vector26' />
+        </div>
+        <div className='chevron-right-icon26'>
+          <div className='vector-326' />
+        </div>
+      </button>
+      <button className='button-group-426'>
+        <div className='rectangle-526' />
+        <div className='rectangle-626' />
+        <div className='rectangle-726' />
+        <span className='youtube-page26'>
+          Página no Youtube de Ana Cláudia Quintana Arantes
+        </span>
+        <div className='link-icon-826'>
+          <div className='vector-926' />
+        </div>
+        <div className='chevron-icon26'>
+          <div className='vector-a26' />
+        </div>
+      </button>
+      <button className='group26'>
+        <div className='rectangle-b26' />
+        <div className='rectangle-c26' />
+        <div className='rectangle-d26' />
+        <span className='quality-life-series26'>
+          Série Qualidade de Vida para Crianças com Câncer. Módulos em Cuidados
+          Paliativos Pediátricos. Atenção Domiciliar. Organização Mundial da
+          Saúde e Organização Pan-Americana da Saúde.
+        </span>
+        <div className='duck-icon-link26'>
+          <div className='vector-e26' />
+        </div>
+        <div className='duck-icon-chevron-right'>
+          <div className='vector-f26' />
+        </div>
+      </button>
+      <button className='button-group-1026'>
+        <div className='rectangle-1126' />
+        <div className='rectangle-1226' />
+        <div className='rectangle-1326' />
+        <span className='cartilha-cuidados-paliativos26'>
+          Cartilha sobre cuidados paliativos pediátricos para familiares e
+          pacientes. Academia Nacional de Cuidados Paliativos.
+        </span>
+        <div className='duck-icon-link-1426'>
+          <div className='vector-1526' />
+        </div>
+        <div className='duck-icon-chevron-right-1626'>
+          <div className='vector-1726' />
+        </div>
+      </button>
+      <button className='button26'>
+        <div className='rectangle-1826' />
+        <div className='rectangle-1926' />
+        <div className='rectangle-1a26' />
+        <span className='site-association-brasileira26'>
+          Site da Associação Brasileira de Linfoma e Leucemia. Câncer infantil.
+        </span>
+        <div className='icon-link26'>
+          <div className='vector-1b26' />
+        </div>
+        <div className='icon-chevron-right26'>
+          <div className='vector-1c26' />
+        </div>
+      </button>
+      <div className='group-1d26'>
+        <div className='icon-chevron-right-1e26'>
+          <div className='vector-1f26' />
+        </div>
+        <div className='chevron-right-icon-2026' />
+      </div>
+      <div className='rectangle-2126' />
+      <div className='group-2226'>
+        <span className='number-2626'>26</span>
+        <div className='ellipse26' />
+      </div>
+      <span className='suggestion-of-reading26'>SUGESTÃO DE LEITURA</span>
+      <div className='rectangle-2326' />
+    </div>
+  );
+}

@@ -1,0 +1,437 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container10 {
+    overflow: hidden;
+  }
+  
+  .main-container10,
+  .main-container10 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container10 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .care-span10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 639px;
+    height: 83px;
+    margin: 110px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 4;
+  }
+  .care-group10 {
+    position: relative;
+    width: 670px;
+    height: 30px;
+    margin: 20px 0 0 0;
+    z-index: 5;
+  }
+  .care-button10 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 6;
+  }
+  .care-span-110 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 4px;
+    left: 100px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .care-div-210 {
+    position: relative;
+    width: 640px;
+    height: 100px;
+    margin: 350px 0 0 30px;
+    z-index: 16;
+  }
+  .care-div-310 {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 18;
+  }
+  .care-span-410 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 83px;
+    top: 9px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 17;
+  }
+  .group10 {
+    position: relative;
+    width: 640px;
+    height: 160px;
+    margin: 40px 0 0 30px;
+    z-index: 19;
+  }
+  .rectangle10 {
+    position: absolute;
+    width: 20px;
+    height: 160px;
+    top: 0;
+    left: 620px;
+    background: #93a9d1;
+    z-index: 21;
+  }
+  .care-palliative10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 610px;
+    height: 149px;
+    top: 5px;
+    left: 0;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: right;
+    z-index: 20;
+  }
+  .group-510 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 47px 0 0 30px;
+    z-index: 25;
+  }
+  .chevron-right-icon10 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 26;
+  }
+  .vector10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/34deabbb-8452-4871-81b0-be67771ed4d2.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 27;
+  }
+  .chevron-right-icon-610 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/c8ed014b-f3af-491b-b227-ba1e15d1237a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 28;
+  }
+  .rectangle-710 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-810 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 22;
+  }
+  .span10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 27px;
+    height: 29px;
+    margin: 6px 0 0 7px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 24;
+  }
+  .ellipse10 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/e4fcb2b5-2691-4c5b-bcde-b7a96d516e9d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+    border-radius: 50%;
+  }
+  .group-910 {
+    position: absolute;
+    width: 670px;
+    height: 68px;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+  }
+  .como-os-cuidados10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 570px;
+    height: 68px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34.132px;
+    text-align: left;
+    z-index: 3;
+  }
+  .rectangle-a10 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 19px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 2;
+  }
+  .rectangle-b10 {
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    top: 253px;
+    left: 30px;
+    cursor: pointer;
+    background: #93a9d1;
+    border: none;
+    z-index: 8;
+    border-radius: 20px;
+  }
+  .rectangle-c10 {
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    top: 253px;
+    left: 360px;
+    cursor: pointer;
+    background: #93a9d1;
+    border: none;
+    z-index: 10;
+    border-radius: 20px;
+  }
+  .physical-dimension10 {
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 273px;
+    left: 50px;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 12;
+  }
+  .physical-dimension-d10 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .physical-dimension-e10 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .emotional-dimension10 {
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 273px;
+    left: 380px;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 13;
+  }
+  .emotional-dimension-f10 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .emotional-dimension-1010 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .rectangle-1110 {
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    top: 423px;
+    left: 30px;
+    background: #93a9d1;
+    z-index: 9;
+    border-radius: 20px;
+  }
+  .rectangle-1210 {
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    top: 423px;
+    left: 360px;
+    background: #93a9d1;
+    z-index: 11;
+    border-radius: 20px;
+  }
+  .social-family10 {
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 443px;
+    left: 380px;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 14;
+  }
+  .social-family-1310 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .social-family-1410 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .spiritual10 {
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    top: 443px;
+    left: 50px;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 15;
+  }
+  .spiritual-1510 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  .spiritual-1610 {
+    position: relative;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+  }
+  
