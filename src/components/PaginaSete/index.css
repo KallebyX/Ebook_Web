@@ -541,7 +541,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/a1f563c8-ae67-4363-84c4-a58f92fe0139.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 27;
@@ -560,7 +560,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/475166f3-e63e-46ac-9298-3b25f570fb63.png)
+    background: url(src/assets/images/skip.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 29;

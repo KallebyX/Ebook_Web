@@ -31,12 +31,12 @@
   }
   .rectangle5 {
     position: relative;
-    width: 380px;
-    height: 569px;
-    margin: 80px 0 0 160px;
-    background: #66648b;
-    z-index: 12;
+    width: 380px; /* Set the width of the video */
+    height: 569px; /* Set the height of the video */
+    margin: 80px 0 0 160px; /* Adjust the margin as per your layout */
+    z-index: 12; /* Keep the z-index if you need the video to be positioned in a specific layer */
   }
+  
   .group5 {
     position: relative;
     width: 640.274px;

@@ -1,32 +1,58 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './index.css';
+import audioSrc1 from '../../assets/video/audio1.mpeg'; // Adjust these paths as needed
+import audioSrc2 from '../../assets/video/audio2.mpeg';
 
 export default function PaginaOito() {
+  const audioRef1 = useRef(null);
+  const audioRef2 = useRef(null);
+
+  // Toggle play/pause for the first audio
+  const togglePlayAudio1 = () => {
+    const audio = audioRef1.current;
+    if (!audio) return;
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+      audio.currentTime = 0; // Optionally reset the audio to the start
+    }
+  };
+
+  // Toggle play/pause for the second audio
+  const togglePlayAudio2 = () => {
+    const audio = audioRef2.current;
+    if (!audio) return;
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+      audio.currentTime = 0; // Optionally reset the audio to the start
+    }
+  };
+
   return (
     <div className='main-container8'>
       <span className='equipe-saude8'>
-        Toda a equipe de saúde participa da realização dos cuidados paliativos
-        de forma conjunta com família e paciente. <br />
+        Toda a equipe de saúde participa da realização dos cuidados paliativos de forma conjunta com família e paciente.
       </span>
       <div className='group8'>
         <div className='rectangle8' />
         <span className='plano-cuidados8'>
-          Para cada etapa e necessidade do tratamento, um profissional diferente
-          irá trabalhar com vocês e juntos criarão um plano conjunto de cuidados
-          respeitando os seus limites, desejos e escolhas.
+          Para cada etapa e necessidade do tratamento, um profissional diferente irá trabalhar com vocês e juntos criarão um plano conjunto de cuidados respeitando os seus limites, desejos e escolhas.
         </span>
       </div>
       <span className='enfermeira-noeli8'>
-        Ouça a seguir uma fala a respeito da realização destes cuidados, através
-        da fala da Enfermeira Noeli Maria Birk, Mestre em Enfermagem,
-        Especialista em Educação Profissional na Área da Saúde, Saúde Pública e
-        Cuidados Paliativos.
+        Ouça a seguir uma fala a respeito da realização destes cuidados, através da fala da Enfermeira Noeli Maria Birk, Mestre em Enfermagem, Especialista em Educação Profissional na Área da Saúde, Saúde Pública e Cuidados Paliativos.
       </span>
       <div className='group-18'>
         <div className='rectangle-28' />
         <div className='rectangle-38' />
         <div className='rectangle-48' />
-        <div className='player-skip-forward8' />
+        <div className='player-skip-forward8' onClick={togglePlayAudio1}></div>
+        <audio ref={audioRef1} src={audioSrc1} style={{ display: 'none' }}></audio>
         <div className='volume-down8'>
           <div className='vector8' />
         </div>
@@ -35,15 +61,14 @@ export default function PaginaOito() {
         <button className='button8' />
       </div>
       <span className='fisioterapeuta-claudia-turra-rossato8'>
-        Ouça também a Fisioterapeuta Cláudia Turra Rossato, Pós Graduada em
-        Terapia Intensiva com Ênfase em Oncologia e Controle de Infecção
-        Hospitalar e Mestranda em Ciências do Movimento e Reabilitação.
+        Ouça também a Fisioterapeuta Cláudia Turra Rossato, Pós Graduada em Terapia Intensiva com Ênfase em Oncologia e Controle de Infecção Hospitalar e Mestranda em Ciências do Movimento e Reabilitação.
       </span>
       <div className='group-68'>
         <div className='rectangle-78' />
         <div className='rectangle-88' />
         <div className='rectangle-98' />
-        <div className='player-skip-forward-a8' />
+        <div className='player-skip-forward-a8' onClick={togglePlayAudio2}></div>
+        <audio ref={audioRef2} src={audioSrc2} style={{ display: 'none' }}></audio>
         <div className='volume-down-b8'>
           <div className='vector-c8' />
         </div>
@@ -64,22 +89,13 @@ export default function PaginaOito() {
       </div>
       <div className='group-168'>
         <span className='span-178'>
-          QUEM PARTICIPA DOS <br />
-          CUIDADOS PALIATIVOS?
+          QUEM PARTICIPA DOS CUIDADOS PALIATIVOS?
         </span>
         <button className='button-188' />
       </div>
       <div className='rectangle-198' />
       <span className='span-1a8'>
-        O diagnóstico de uma doença grave trás consigo o sofrimento, sentimento
-        de medo e angústia frente a várias situações da vida como a morte, o
-        desamparo com a família, afastamento de atividades diárias, por exemplo.
-        <br />
-        Assim, uma equipe com profissionais qualificados como enfermeiros,
-        psicólogos, médicos, fisioterapeutas, assistente social, entre outros
-        serão os responsáveis por prestar o cuidado para você e sua família
-        durante todo o processo de diagnóstico, tratamento e reabilitação para
-        que sintam-se protegidos e confiantes. <br />
+        O diagnóstico de uma doença grave trás consigo o sofrimento, sentimento de medo e angústia frente a várias situações da vida como a morte, o desamparo com a família, afastamento de atividades diárias, por exemplo. Assim, uma equipe com profissionais qualificados como enfermeiros, psicólogos, médicos, fisioterapeutas, assistente social, entre outros serão os responsáveis por prestar o cuidado para você e sua família durante todo o processo de diagnóstico, tratamento e reabilitação para que sintam-se protegidos e confiantes.
       </span>
     </div>
   );

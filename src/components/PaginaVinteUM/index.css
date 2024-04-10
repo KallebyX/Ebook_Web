@@ -194,13 +194,13 @@
     border: none;
     z-index: 1;
   }
-  .prancheta-copia {
+  .prancheta-copia211 {
     position: absolute;
     width: 260px;
     height: 260px;
     top: 80px;
     left: 409px;
-    background: url(../assets/images/ec6cb926-bc1e-422b-a99d-c87030848b00.png)
+    background: url(src/assets/images/15.png)
       no-repeat center;
     background-size: cover;
     z-index: 12;

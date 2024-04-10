@@ -46,7 +46,7 @@ button {
   width: 639px;
   height: 639px;
   margin: 66px 0 0 31px;
-  background: url(../assets/images/51f1fd995369c6e5ee28e939f17f2777694bc764.png) no-repeat center;
+  background: url(src/assets/images/Prancheta1.png) no-repeat center;
   background-size: cover;
   z-index: 5;
 }

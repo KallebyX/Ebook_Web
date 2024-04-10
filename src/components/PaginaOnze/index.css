@@ -239,7 +239,7 @@ button {
   height: 230px;
   top: 451px;
   left: 60px;
-  background: url(../assets/images/2ebfe605-289e-408a-978e-5b7ad2ff7ae3.png)
+  background: url(src/assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 4;
@@ -252,7 +252,7 @@ button {
   height: 230px;
   top: 451px;
   left: 410px;
-  background: url(../assets/images/5e1b602c-d2b4-42bc-a7d6-03a957b30caf.png)
+  background: url(src/assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 5;
@@ -301,7 +301,7 @@ button {
   height: 36.82px;
   top: 547.59px;
   left: 50%;
-  background: url(../assets/images/afe4d336-e363-41e7-a634-f3688aef9618.png)
+  background: url(src/assets/images/setaD.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50%, 0);
@@ -314,7 +314,7 @@ button {
   height: 35px;
   top: 668.5px;
   left: 507.59px;
-  background: url(../assets/images/f3785805-0bde-4bb8-a1a6-5ad408cfbfc9.png)
+  background: url(src/assets/images/setaB.png)
     no-repeat center;
   background-size: cover;
   z-index: 18;
@@ -326,7 +326,7 @@ button {
   height: 230px;
   top: 690px;
   left: 410px;
-  background: url(../assets/images/8e906f53-21df-4409-a786-b0a8cdda9312.png)
+  background: url(src/assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 6;
@@ -339,7 +339,7 @@ button {
   height: 230px;
   top: 690px;
   left: 58px;
-  background: url(../assets/images/d1b4e54c-015b-4a80-81b7-5c3c166175a2.png)
+  background: url(src/assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;
@@ -388,7 +388,7 @@ button {
   height: 36.82px;
   top: 786.59px;
   left: 50%;
-  background: url(../assets/images/1d5850ea-16fc-420b-8d39-e1c801998563.png)
+  background: url(src/assets/images/setaE.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50%, 0);

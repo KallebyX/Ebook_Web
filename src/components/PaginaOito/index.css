@@ -139,7 +139,7 @@
     height: 60%;
     top: 20%;
     left: 12.5%;
-    background: url(../assets/images/169389e8-6c4e-414d-aae5-b192f02c74e4.png)
+    background: url(src/assets/images/skip.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 19;
@@ -158,7 +158,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/cdd46573-2514-4a94-ba2b-ae54833d4e12.png)
+    background: url(src/assets/images/VolumeDown.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 21;
@@ -253,7 +253,7 @@
     height: 60%;
     top: 20%;
     left: 12.5%;
-    background: url(../assets/images/3ca6182d-0e10-4c6b-81f2-7e2e6a25cf74.png)
+    background: url(src/assets/images/skip.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 29;
@@ -272,7 +272,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/628d1964-953f-49a6-8a2b-046c04879d9a.png)
+    background: url(src/assets/images/VolumeDown.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 31;

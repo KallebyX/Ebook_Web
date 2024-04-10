@@ -26,7 +26,8 @@
     width: 700px;
     height: 1000px;
     margin: 0 auto;
-    background: #ffffff;
+    background: #D9D9D9;
+    ;
     overflow: hidden;
   }
   .estagio-evolucao13 {
@@ -202,7 +203,7 @@
     height: 260px;
     top: 365px;
     left: 30px;
-    background: url(../assets/images/58cae2de-08b3-40df-92e9-aa9b267e7941.png)
+    background: url(src/assets/images/13.png)
       no-repeat center;
     background-size: cover;
     z-index: 6;

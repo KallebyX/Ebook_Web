@@ -29,7 +29,7 @@ export default function PaginaVinteUm() {
       </div>
       <span className='control-symptoms'>CONTROLE DOS SINTOMAS</span>
       <button className='rectangle-5' />
-      <div className='prancheta-copia' />
+      <div className='prancheta-copia211' />
       <div className='group-6'>
         <div className='group-7'>
           <span className='alteracoes-paladar'>

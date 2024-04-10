@@ -67,7 +67,7 @@ button {
   height: 335px;
   top: 0;
   left: 278px;
-  background: url(../assets/images/9b5e7a14-999a-47dd-8349-8ecc127e7ead.png)
+  background: url(src/assets/images/9b5e7a14-999a-47dd-8349-8ecc127e7ead.png)
     no-repeat center;
   background-size: cover;
   z-index: 4;
@@ -79,7 +79,7 @@ button {
   height: 516px;
   top: 168px;
   left: 124px;
-  background: url(../assets/images/ce060021-26e1-410e-8cfb-8ef204158c09.png)
+  background: url(src/assets/images/Ellipse6.png)
     no-repeat center;
   background-size: cover;
   z-index: 2;
@@ -122,7 +122,7 @@ button {
   height: 361px;
   top: 478px;
   left: 0;
-  background: url(../assets/images/b17cd621-7cb0-4cef-9535-9ab49f6140d9.png)
+  background: url(src/assets/images/b17cd621-7cb0-4cef-9535-9ab49f6140d9.png.png)
     no-repeat center;
   background-size: cover;
   z-index: 3;
@@ -134,7 +134,7 @@ button {
   height: 160px;
   top: 810px;
   left: 520px;
-  background: url(../assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png)
+  background: url(src/assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;

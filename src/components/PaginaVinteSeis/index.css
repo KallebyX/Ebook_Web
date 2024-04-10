@@ -100,7 +100,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/2f9cae44-480b-4f1d-9756-7ab02fc66d4d.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 9;
@@ -119,7 +119,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/fc73c3f4-d1b8-4c98-93f9-8760e4fddce2.png)
+    background: url(src/assets/images/left.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 11;
@@ -193,7 +193,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/236a670c-c4aa-4b9e-b541-f3b1d910744e.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 27;
@@ -212,7 +212,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/67cb00e0-3ac3-4281-ac28-d3a2e922a79d.png)
+    background: url(src/assets/images/left.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 29;
@@ -286,7 +286,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/0907f88c-bd8c-41bb-9fce-eb848cc4f4f9.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 45;
@@ -300,12 +300,12 @@
     z-index: 46;
   }
   .vector-f26 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    width: 30px;
+    height: 30px;  
     top: 0;
-    left: 0;
-    background: url(../assets/images/a51fccab-48ac-4c16-b292-f905c796fe0d.png)
+    left: 55px;
+    background: url(src/assets/images/left.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 47;
@@ -379,7 +379,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/9b43f6eb-ebe3-4c84-a0dc-fb6070badc2f.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 36;
@@ -398,7 +398,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/a323a1f2-2c08-4dda-a50b-e775de120d3d.png)
+    background: url(src/assets/images/left.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 38;
@@ -472,7 +472,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(../assets/images/358978cf-a412-4e05-8d22-dd796b74c314.png)
+    background: url(src/assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 18;
@@ -491,7 +491,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../assets/images/6eb0deb2-078a-410b-af3c-6f004a770ba9.png)
+    background: url(src/assets/images/left.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 20;
