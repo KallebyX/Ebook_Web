@@ -55,7 +55,7 @@ export default function PaginaQuatro() {
       </div>
 
       {/* Botões de navegação */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+      <div style={{ width: '700px', position: 'absolute', bottom: '-190px', left: '53%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"

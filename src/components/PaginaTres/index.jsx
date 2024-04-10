@@ -74,7 +74,7 @@ export default function PaginaTres() {
       </div>
 
       {/* Botões de navegação com medidas especificadas */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+      <div style={{ width: '700px', position: 'absolute', bottom: '-190px', left: '53%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"
