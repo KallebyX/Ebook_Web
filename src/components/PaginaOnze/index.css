@@ -239,7 +239,7 @@ button {
   height: 230px;
   top: 451px;
   left: 60px;
-  background: url(src/assets/images/Ellipse2.png)
+  background: url(../../assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 4;
@@ -252,7 +252,7 @@ button {
   height: 230px;
   top: 451px;
   left: 410px;
-  background: url(src/assets/images/Ellipse2.png)
+  background: url(../../assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 5;
@@ -301,7 +301,7 @@ button {
   height: 36.82px;
   top: 547.59px;
   left: 50%;
-  background: url(src/assets/images/setaD.png)
+  background: url(../../assets/images/setaD.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50%, 0);
@@ -314,7 +314,7 @@ button {
   height: 35px;
   top: 668.5px;
   left: 507.59px;
-  background: url(src/assets/images/setaB.png)
+  background: url(../../assets/images/setaB.png)
     no-repeat center;
   background-size: cover;
   z-index: 18;
@@ -326,7 +326,7 @@ button {
   height: 230px;
   top: 690px;
   left: 410px;
-  background: url(src/assets/images/Ellipse2.png)
+  background: url(../../assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 6;
@@ -339,7 +339,7 @@ button {
   height: 230px;
   top: 690px;
   left: 58px;
-  background: url(src/assets/images/Ellipse2.png)
+  background: url(../../assets/images/Ellipse2.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;
@@ -388,7 +388,7 @@ button {
   height: 36.82px;
   top: 786.59px;
   left: 50%;
-  background: url(src/assets/images/setaE.png)
+  background: url(../../assets/images/setaE.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50%, 0);
