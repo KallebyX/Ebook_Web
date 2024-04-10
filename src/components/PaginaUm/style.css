@@ -137,5 +137,5 @@ button {
   background: url(../../assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png)
     no-repeat center;
   background-size: cover;
-  z-index: 7;
+  z-index: 0;
 }

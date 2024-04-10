@@ -1,7 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaDez() {
+  const navigate = useNavigate();
+
+  const avancarPagina = () => {
+    navigate('/pagina-onze'); // Atualize esta rota conforme necessário
+  };
+
+  const voltarPagina = () => {
+    navigate('/pagina-nove'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container10'>
       <span className='care-span10'>
@@ -99,6 +112,22 @@ export default function PaginaDez() {
           <br />
           Padres, pastores e sacerdotes ajudarão.
         </span>
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

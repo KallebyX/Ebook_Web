@@ -1,7 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
+// Importe a imagem do botão avançar
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaUm() {
+  const navigate = useNavigate();
+
+  // Função para navegar para a próxima página
+  const avancarPagina = () => {
+    navigate('/pagina-dois'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container1'>
       <span className='heloisa-catto-dal1'>Heloisa Catto Dal Forno</span>
@@ -22,6 +32,15 @@ export default function PaginaUm() {
         <div className='prancheta-copia-11' />
       </div>
       <div className='prancheta-copia-21' />
+      {/* Botão de avançar */}
+      <div className='navigation-buttons'>
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer', position: 'absolute', bottom: '10px', left: '290px', zIndex: '0'}}
+        />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,21 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaVinteCinco() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagine-vinte-quatro');
+  };
+
+  const avancarPagina = () => {
+    // Aqui você precisa atualizar a rota conforme necessário
+    navigate('/pagina-vinte-seis');
+  };
+
   return (
     <div className='main-container25'>
       <div className='group25'>
@@ -21,6 +35,22 @@ export default function PaginaVinteCinco() {
           <div className='vector25' />
         </div>
         <div className='duck-icon-chevron-right25' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

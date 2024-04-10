@@ -1,10 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './index.css';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaSeis() {
   const navigate = useNavigate();
 
+  const avancarPagina = () => {
+    navigate('/pagina-sete'); // Substitua '/pagina-sete' pela rota correta para a próxima página
+  };
+
+  const voltarPagina = () => {
+    navigate('/pagina-cinco'); // Substitua '/pagina-cinco' pela rota correta para a página anterior
+  };
   return (
     <div className='main-container6cc'>
       {/* Grupo 1 - O que são cuidados paliativos? */}
@@ -88,6 +97,22 @@ export default function PaginaSeis() {
       </div>
       <div className='rectangle-2b6cc' />
       <span className='summary-26cc'>SUMÁRIO</span>
+        {/* Botões de navegação com estilos inline conforme solicitado */}
+        <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
+    
   );
 }

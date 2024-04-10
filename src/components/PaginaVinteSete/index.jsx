@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaVinteSete() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-vinte-seis');
+  };
+
+  const avancarPagina = () => {
+    navigate('/');
+  };
+
   return (
     <div className='main-container27'>
       <div className='group27'>
@@ -64,6 +77,20 @@ export default function PaginaVinteSete() {
       </div>
       <span className='references-c27'>REFERÊNCIAS</span>
       <button className='rectangle-d' />
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaSete() {
+  const navigate = useNavigate();
+
+  const avancarPagina = () => {
+    navigate('/pagina-oito'); // Atualize esta rota conforme necessário
+  };
+
+  const voltarPagina = () => {
+    navigate('/pagina-seis'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container7'>
       <div className='understand-concept7'>
@@ -117,6 +130,22 @@ export default function PaginaSete() {
       </div>
       <div className='chevron-right-icon-1a7'>
         <div className='vector-1b7' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

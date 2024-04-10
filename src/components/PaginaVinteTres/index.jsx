@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaVinteTres() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-vinte-dois');
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagine-vinte-quatro');
+  };
+
   return (
     <div className='main-container'>
       <div className='group'>
@@ -9,7 +22,7 @@ export default function PaginaVinteTres() {
         <span className='cuidados'>CUIDADOS</span>
       </div>
       <span className='alimentos'>
-        É importante mudar a consistênsia da dieta a fim de amenizar a sensação
+        É importante mudar a consistência da dieta a fim de amenizar a sensação
         de dor. Prefira alimentos pastosos ou liquidificados; <br />
         Diminua o sal ao preparar os alimentos; <br />
         Evite alimentos secos e duros; <br />
@@ -47,6 +60,22 @@ export default function PaginaVinteTres() {
         MUCOSITE (FERIDAS NA BOCA) <br />E ODINOFAGIA <br />
         (DOR PARA ENGOLIR)
       </span>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
   );
 }

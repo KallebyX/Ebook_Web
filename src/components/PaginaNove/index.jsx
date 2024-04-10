@@ -1,8 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 import video2 from '../../assets/video/QOEZVGGRKH3N5GGE.mp4';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaNove() {
+  const navigate = useNavigate();
+
+  const avancarPagina = () => {
+    navigate('/pagina-dez'); // Atualize esta rota conforme necessário
+  };
+
+  const voltarPagina = () => {
+    navigate('/pagina-oito'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container9'>
       {/* Video element for page 9 */}
@@ -53,6 +66,22 @@ export default function PaginaNove() {
           DE CUIDADOS PALIATIVOS?
         </span>
         <button className='rectangle-69' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

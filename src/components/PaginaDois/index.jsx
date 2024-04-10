@@ -1,7 +1,23 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
+// Certifique-se de que os caminhos para as imagens estão corretos
+import avancarImg from '../../assets/images/avancar.png'; 
+import voltarImg from '../../assets/images/voltarp.png';
 
 export default function PaginaDois() {
+  const navigate = useNavigate();
+
+  // Função para navegar para a próxima página
+  const avancarPagina = () => {
+    navigate('/pagina-tres'); // Substitua '/pagina-tres' pela rota correta
+  };
+
+  // Função para voltar para a página anterior
+  const voltarPagina = () => {
+    navigate('/pagina-um'); // Substitua '/pagina-um' pela rota correta
+  };
+
   return (
     <div className='main-container2a'>
       <div className='group2a'>
@@ -77,6 +93,22 @@ export default function PaginaDois() {
         <div className='duck-icon-chevron-right-82a' />
       </div>
       <div className='rectangle-92a' />
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
   );
 }

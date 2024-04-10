@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaDezesete() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-dezeseis'); // Atualize esta rota conforme necessário
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-dezoito'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container17'>
       <button className='group17'>
@@ -35,17 +48,21 @@ export default function PaginaDezesete() {
         <span className='control-symptoms17'>CONTROLE DOS SINTOMAS</span>
         <div className='rectangle-617' />
       </div>
-      <div className='prancheta-copia17' />
-      <div className='group-717'>
-        <div className='flex-row-ed17'>
-          <button className='rectangle-817' />
-          <span className='falta-de-apetite17'>FALTA DE APETITE</span>
-        </div>
-        <span className='criancas-e-adolescentes-cancer-avancado17'>
-          Em crianças e adolescentes com câncer avançado há uma diminuição do
-          apetite, sendo importante não forçar o alimento ofertado. <br />É
-          importante nesse momento, pedir o que gostaria de comer.
-        </span>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

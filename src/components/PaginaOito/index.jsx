@@ -1,9 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
+import avancarImg from '../../assets/images/avancar.png';
+import voltarImg from '../../assets/images/voltarp.png';
 import audioSrc1 from '../../assets/video/audio1.mpeg';
 import audioSrc2 from '../../assets/video/audio2.mpeg';
 
 export default function PaginaOito() {
+  const navigate = useNavigate();
+
   const audioRef1 = useRef(null);
   const audioRef2 = useRef(null);
   const [audioProgress1, setAudioProgress1] = useState(0);
@@ -63,6 +68,14 @@ export default function PaginaOito() {
     const seekTime = (audio.duration / 100) * e.target.value;
     audio.currentTime = seekTime;
     setProgress(e.target.value);
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-nove'); // Atualize esta rota conforme necessário
+  };
+
+  const voltarPagina = () => {
+    navigate('/pagina-sete'); // Atualize esta rota conforme necessário
   };
 
   return (
@@ -131,6 +144,22 @@ export default function PaginaOito() {
       <span className='span-1a8'>
         O diagnóstico de uma doença grave trás consigo o sofrimento, sentimento de medo e angústia frente a várias situações da vida como a morte, o desamparo com a família, afastamento de atividades diárias, por exemplo. Assim, uma equipe com profissionais qualificados como enfermeiros, psicólogos, médicos, fisioterapeutas, assistente social, entre outros serão os responsáveis por prestar o cuidado para você e sua família durante todo o processo de diagnóstico, tratamento e reabilitação para que sintam-se protegidos e confiantes.
       </span>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
   );
 }

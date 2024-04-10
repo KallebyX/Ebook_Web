@@ -1,7 +1,19 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaDezoito() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-dezesete');
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-dezenove');
+  };
   return (
     <div className='main-container18'>
       <div className='group18'>
@@ -47,6 +59,21 @@ export default function PaginaDezoito() {
           pode dificultar as atividades diárias e desejo de melhora de sua
           saúde.
         </span>
+      </div>
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaVinteSeis() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-vinte-cinco');
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-vinte-sete');
+  };
+
   return (
     <div className='main-container26'>
       <button className='button-group26'>
@@ -104,6 +117,21 @@ Site: acqa
       </div>
       <span className='suggestion-of-reading26'>SUGESTÃO DE LEITURA</span>
       <div className='rectangle-2326' />
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
     </div>
   );
 }

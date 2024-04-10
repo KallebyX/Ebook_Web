@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaVinte() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-dezenove');
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-vinte-um');
+  };
+
   return (
     <div className='main-container20'>
       <div className='group20'>
@@ -36,6 +49,22 @@ export default function PaginaVinte() {
       <div className='group-520'>
         <span className='control-symptoms20'>CONTROLE DOS SINTOMAS</span>
         <button className='rectangle-button20' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

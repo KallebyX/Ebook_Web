@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaVinteQuatro() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-vinte-tres');
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-vinte-cinco');
+  };
+
   return (
     <div className='main-container24'>
       <div className='group24'>
@@ -45,8 +58,24 @@ export default function PaginaVinteQuatro() {
         </span>
         <button className='rectangle-824' />
         <span className='neutropenia-defense-immunity24'>
-          NEUTROPENIA (QUEDA DA DEFESA E IMUNIDADE
+          NEUTROPENIA (QUEDA DA DEFESA E IMUNIDADE)
         </span>
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

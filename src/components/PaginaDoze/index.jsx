@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaDoze() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-onze'); // Atualize esta rota conforme necessário
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-treze'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container-12'>
       <span className='equipe-de-saude-12'>
@@ -29,6 +42,22 @@ export default function PaginaDoze() {
           SERÃO REALIZADOS?
         </span>
         <div className='rectangle-4-12' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );

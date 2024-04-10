@@ -1,7 +1,20 @@
 import React from 'react';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
+import voltarImg from '../../assets/images/voltarp.png';
+import avancarImg from '../../assets/images/avancar.png';
 
 export default function PaginaDezeseis() {
+  const navigate = useNavigate();
+
+  const voltarPagina = () => {
+    navigate('/pagina-quinze'); // Atualize esta rota conforme necessário
+  };
+
+  const avancarPagina = () => {
+    navigate('/pagina-dezesete'); // Atualize esta rota conforme necessário
+  };
+
   return (
     <div className='main-container16'>
       <div className='group16'>
@@ -54,6 +67,22 @@ export default function PaginaDezeseis() {
       <div className='group-916'>
         <span className='control-symptoms16'>CONTROLE DOS SINTOMAS</span>
         <div className='rectangle-a16' />
+      </div>
+
+      {/* Botões de navegação */}
+      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <img
+          src={voltarImg}
+          alt="Voltar"
+          onClick={voltarPagina}
+          style={{ cursor: 'pointer', marginRight: '600px' }}
+        />
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
     </div>
   );
