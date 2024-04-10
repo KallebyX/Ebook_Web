@@ -20,7 +20,18 @@
   button {
     outline: 0;
   }
-  
+  .rectangle7 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 4;
+    border-radius: 0;
+    }
   .main-container7 {
     position: relative;
     width: 700px;
@@ -390,14 +401,14 @@
     position: relative;
     width: 268.667px;
     height: 60px;
-    margin: 20px 0 0 21px;
+    margin: 0px 0 0 21px;
     font-family: Montserrat, var(--default-font-family);
     font-size: 18px;
     font-weight: 500;
     line-height: 21.942px;
     text-align: center;
     text-overflow: initial;
-    white-space: nowrap;
+    white-space: wrap;
     z-index: 15;
   }
   .physical-suffering-117 {
@@ -444,14 +455,14 @@
     position: relative;
     width: 268.667px;
     height: 60px;
-    margin: 20px 0 0 20.667px;
+    margin: 0px 0 0 20.667px;
     font-family: Montserrat, var(--default-font-family);
     font-size: 18px;
     font-weight: 500;
     line-height: 21.942px;
     text-align: center;
     text-overflow: initial;
-    white-space: nowrap;
+    white-space: wrap;
     z-index: 18;
   }
   .mental-suffering-147 {
@@ -513,11 +524,17 @@
   }
   .button7 {
     position: absolute;
+    display: flex;
+    align-items: center;
     width: 519px;
     height: 30px;
     top: 825px;
     left: 141px;
-    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
     color: #d9d9d9;
     font-family: Montserrat, var(--default-font-family);
     font-size: 20px;
@@ -527,6 +544,11 @@
     background: transparent;
     border: none;
     z-index: 24;
+  }
+  .button-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    display: inline-block; /* Permite estilizar como um bloco inline */
   }
   .link-icon7 {
     position: absolute;
@@ -541,7 +563,7 @@
     width: 30px;
     height: 30px;
     margin: 0 0 0 0;
-    background: url(src/assets/images/Vector.png)
+    background: url(../../assets/images/Vector.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 27;
@@ -560,7 +582,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(src/assets/images/skip.png)
+    background: url(../../assets/images/7.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 29;

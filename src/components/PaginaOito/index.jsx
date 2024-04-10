@@ -1,22 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './index.css';
-import audioSrc1 from '../../assets/video/audio1.mpeg'; // Adjust these paths as needed
+import audioSrc1 from '../../assets/video/audio1.mpeg';
 import audioSrc2 from '../../assets/video/audio2.mpeg';
 
 export default function PaginaOito() {
   const audioRef1 = useRef(null);
   const audioRef2 = useRef(null);
+  const [audioProgress1, setAudioProgress1] = useState(0);
+  const [audioProgress2, setAudioProgress2] = useState(0);
 
   // Toggle play/pause for the first audio
   const togglePlayAudio1 = () => {
     const audio = audioRef1.current;
     if (!audio) return;
-
     if (audio.paused) {
       audio.play();
     } else {
       audio.pause();
-      audio.currentTime = 0; // Optionally reset the audio to the start
+      audio.currentTime = 0;
+      setAudioProgress1(0);
     }
   };
 
@@ -24,13 +26,43 @@ export default function PaginaOito() {
   const togglePlayAudio2 = () => {
     const audio = audioRef2.current;
     if (!audio) return;
-
     if (audio.paused) {
       audio.play();
     } else {
       audio.pause();
-      audio.currentTime = 0; // Optionally reset the audio to the start
+      audio.currentTime = 0;
+      setAudioProgress2(0);
     }
+  };
+
+  useEffect(() => {
+    const audio1 = audioRef1.current;
+    const audio2 = audioRef2.current;
+
+    const updateProgress1 = () => {
+      const progress = (audio1.currentTime / audio1.duration) * 100;
+      setAudioProgress1(progress);
+    };
+
+    const updateProgress2 = () => {
+      const progress = (audio2.currentTime / audio2.duration) * 100;
+      setAudioProgress2(progress);
+    };
+
+    audio1.addEventListener('timeupdate', updateProgress1);
+    audio2.addEventListener('timeupdate', updateProgress2);
+
+    return () => {
+      audio1.removeEventListener('timeupdate', updateProgress1);
+      audio2.removeEventListener('timeupdate', updateProgress2);
+    };
+  }, []);
+
+  const seekAudio = (audioRef, setProgress, e) => {
+    const audio = audioRef.current;
+    const seekTime = (audio.duration / 100) * e.target.value;
+    audio.currentTime = seekTime;
+    setProgress(e.target.value);
   };
 
   return (
@@ -57,8 +89,9 @@ export default function PaginaOito() {
           <div className='vector8' />
         </div>
         <div className='ellipse8' />
-        <div className='rectangle-58' />
-        <button className='button8' />
+        <div className='rectangle-58' style={{ width: '100%', backgroundColor: '#ddd' }}>
+          <div className='button8' style={{ width: `${audioProgress1}%`, backgroundColor: 'green', height: '100%' }} />
+        </div>
       </div>
       <span className='fisioterapeuta-claudia-turra-rossato8'>
         Ouça também a Fisioterapeuta Cláudia Turra Rossato, Pós Graduada em Terapia Intensiva com Ênfase em Oncologia e Controle de Infecção Hospitalar e Mestranda em Ciências do Movimento e Reabilitação.
@@ -73,8 +106,9 @@ export default function PaginaOito() {
           <div className='vector-c8' />
         </div>
         <div className='ellipse-d8' />
-        <div className='rectangle-e8' />
-        <div className='rectangle-f8' />
+        <div className='rectangle-e8' style={{ width: '100%', backgroundColor: '#ddd' }}>
+          <div className='rectangle-f8' style={{ width: `${audioProgress2}%`, backgroundColor: 'blue', height: '100%' }} />
+        </div>
       </div>
       <div className='group-108'>
         <div className='chevron-right-icon8'>

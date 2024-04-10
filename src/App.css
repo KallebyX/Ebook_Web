@@ -1,8 +1,58 @@
+@import url('/src/assets/fonts/Montserrat/font.css');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+/* Importa as fontes Montserrat do arquivo fonts.css */
+@import url('./assets/fonts/fonts.css');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Tamanho padrão para texto */
+}
+
+h1, .titulo-capa {
+  font-family: 'Montserrat';
+  font-weight: 800; /* Extrabold */
+  font-size: 28px; /* Títulos */
+}
+
+h2, .titulo-controle-sintomas {
+  font-family: 'Montserrat';
+  font-weight: bold; /* Bold */
+  font-size: 20px; /* Títulos no controle de sintomas */
+}
+
+.numero-pagina {
+  font-family: 'Montserrat';
+  font-weight: 900; /* Black */
+  font-size: 24px; /* Numeração de páginas */
+}
+
+.texto-colaboradores {
+  font-family: 'Montserrat';
+  font-size: 22px; /* Texto na página de colaboradores */
+}
+
+.nome-autora-capa {
+  font-family: 'Montserrat';
+  font-weight: bold; /* Bold */
+  font-size: 35px; /* Nome da autora na capa */
+}
+
+.titulo-capa-black {
+  font-family: 'Montserrat';
+  font-weight: 900; /* Black */
+  font-size: 24px; /* Título capa */
+}
+
+.titulo-capa-regular {
+  font-family: 'Montserrat';
+  font-weight: normal; /* Regular */
+  font-size: 24px; /* Título capa */
 }
 
 .logo {

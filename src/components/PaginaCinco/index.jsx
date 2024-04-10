@@ -1,11 +1,12 @@
 import React from 'react';
 import './index.css';
+import video from '../../assets/video/pag5.mp4';
 
 export default function PaginaCinco() {
   return (
     <div className='main-container5'>
       <video className='rectangle5' controls>
-        <source src={'src/assets/video/pag5.mp4'} type="video/mp4" />
+        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className='group5'>

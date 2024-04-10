@@ -213,7 +213,7 @@ button {
   position: relative;
   width: 640px;
   height: 60px;
-  margin: 45px 0 0 30px;
+  margin: 45px 0 0 0;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -307,7 +307,7 @@ button {
   position: relative;
   width: 640px;
   height: 60px;
-  margin: 45px 0 0 30px;
+  margin: 45px 0 0 0px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -401,7 +401,7 @@ button {
   position: relative;
   width: 640px;
   height: 60px;
-  margin: 45px 0 0 30px;
+  margin: 45px 0 0 0px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -495,7 +495,7 @@ button {
   position: relative;
   width: 640px;
   height: 60px;
-  margin: 45px 0 0 30px;
+  margin: 45px 0 0 00px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -531,6 +531,22 @@ button {
   transform: rotate(180deg);
   z-index: 49;
   border-radius: 10px 0 0 10px;
+}
+.referencias {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
 }
 .sugestao-de-leitura6cc {
   display: flex;
@@ -628,6 +644,8 @@ button {
   width: 520px;
   height: 60px;
   top: 0;
+  display: flex;
+  align-items: center;
   left: 70px;
   cursor: pointer;
   color: #ffffff;

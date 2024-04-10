@@ -31,7 +31,7 @@ export default function PaginaVinteDois() {
         <span className='control-symptoms-6'>CONTROLE DOS SINTOMAS</span>
         <div className='rectangle-7' />
       </div>
-      <div className='prancheta-copia' />
+      <div className='prancheta-copiaww' />
       <div className='group-8'>
         <div className='flex-row-f'>
           <button className='rectangle-9' />

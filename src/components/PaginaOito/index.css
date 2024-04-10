@@ -139,7 +139,7 @@
     height: 60%;
     top: 20%;
     left: 12.5%;
-    background: url(src/assets/images/skip.png)
+    background: url(../../assets/images/skip.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 19;
@@ -158,7 +158,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(src/assets/images/VolumeDown.png)
+    background: url(../../assets/images/VolumeDown.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 21;
@@ -176,13 +176,11 @@
     border-radius: 50%;
   }
   .rectangle-58 {
-    position: absolute;
-    width: 100px;
-    height: 4px;
-    top: 23px;
-    left: 130px;
-    background: #d9d9d9;
-    z-index: 23;
+    position: relative;
+  width: 100%; /* Adjusted to fill the container */
+  height: 4px; /* Height of the progress bar */
+  background: #d9d9d9; /* Background of the progress bar */
+  margin-top: 20px; 
   }
   .button8 {
     position: absolute;
@@ -193,8 +191,18 @@
     cursor: pointer;
     background: #d9d9d9;
     border: none;
-    z-index: 22;
+    z-index: 15;
   }
+  .progress-bar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF; /* Cor de fundo branca */
+    z-index: 14; /* Certifique-se de que esteja atrás do indicador de progresso, mas na frente do contêiner da barra de progresso */
+  }
+  
   .fisioterapeuta-claudia-turra-rossato8 {
     display: flex;
     align-items: flex-start;
@@ -253,7 +261,7 @@
     height: 60%;
     top: 20%;
     left: 12.5%;
-    background: url(src/assets/images/skip.png)
+    background: url(../../assets/images/skip.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 29;
@@ -272,7 +280,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(src/assets/images/VolumeDown.png)
+    background: url(../../assets/images/VolumeDown.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 31;
@@ -290,13 +298,11 @@
     border-radius: 50%;
   }
   .rectangle-e8 {
-    position: absolute;
-    width: 100px;
-    height: 4px;
-    top: 23px;
-    left: 130px;
-    background: #d9d9d9;
-    z-index: 33;
+    position: relative;
+  width: 100%; /* Adjusted to fill the container */
+  height: 4px; /* Height of the progress bar */
+  background: #d9d9d9; /* Background of the progress bar */
+  margin-top: 20px; 
   }
   .rectangle-f8 {
     position: absolute;
@@ -425,6 +431,7 @@
     background: #88b04b;
     border: none;
     z-index: 2;
+    border-radius: 0px;
   }
   .rectangle-198 {
     position: absolute;

@@ -30,6 +30,8 @@
     overflow: hidden;
   }
   .rectangle5 {
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 380px; /* Set the width of the video */
     height: 569px; /* Set the height of the video */

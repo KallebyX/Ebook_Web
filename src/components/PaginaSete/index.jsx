@@ -107,7 +107,11 @@ export default function PaginaSete() {
       <div className='rectangle-167' />
       <div className='rectangle-177' />
       <div className='rectangle-187' />
-      <button className='button7' />
+      <a href="https://www.youtube.com/watch?v=Fa4ctd1uxNc" target="_blank" rel="noopener noreferrer" className="button-link">
+        <button className='button7'>
+          O que são cuidados paliativos? - YouTube
+        </button>
+      </a>
       <div className='link-icon7'>
         <div className='vector-197' />
       </div>

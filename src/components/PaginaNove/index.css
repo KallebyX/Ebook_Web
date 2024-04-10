@@ -30,6 +30,8 @@
     overflow: hidden;
   }
   .rectangle9 {
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 617px;
     height: 356px;

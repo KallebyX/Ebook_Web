@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
-
+import video2 from '../../assets/video/QOEZVGGRKH3N5GGE.mp4';
 
 export default function PaginaNove() {
   return (
     <div className='main-container9'>
       {/* Video element for page 9 */}
       <video className='rectangle9' controls>
-        <source src={'src/assets/video/QOEZVGGRKH3N5GGE.mp4'} type="video/mp4" />
+        <source src={video2} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className='group9'>

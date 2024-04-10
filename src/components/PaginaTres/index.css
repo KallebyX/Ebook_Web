@@ -78,7 +78,7 @@ button {
   height: 100%;
   top: 0;
   left: 0;
-  background: url(src/assets/images/left.png)
+  background: url(../../assets/images/left.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 20;
@@ -89,7 +89,7 @@ button {
   height: 60%;
   top: 20%;
   left: 73.2%;
-  background: url(src/assets/images/right.png)
+  background: url(../../assets/images/right.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 21;
@@ -202,7 +202,7 @@ button {
   height: 89.33%;
   top: 5.33%;
   left: 66.25%;
-  background: url(src/assets/images/skip.png)
+  background: url(../../assets/images/skip.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 11;
@@ -213,7 +213,7 @@ button {
   height: 60%;
   top: 20%;
   left: 16.41%;
-  background: url(src/assets/images/Vector.png)
+  background: url(../../assets/images/Vector.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 12;

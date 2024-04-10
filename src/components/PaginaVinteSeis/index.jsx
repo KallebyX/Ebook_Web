@@ -9,8 +9,11 @@ export default function PaginaVinteSeis() {
         <div className='rectangle-126' />
         <div className='rectangle-226' />
         <span className='livros-acqa26'>
-          Livros de Ana Cláudia Quintana Arantes. <br />
-          Site: acqa
+          <a href="https://www.acqa.com.br/livros/
+">
+  <button className='botao1'>Livros de Ana Cláudia Quintana Arantes. <br />
+Site: acqa
+    </button></a>      
         </span>
         <div className='link-icon26'>
           <div className='vector26' />
@@ -23,8 +26,10 @@ export default function PaginaVinteSeis() {
         <div className='rectangle-526' />
         <div className='rectangle-626' />
         <div className='rectangle-726' />
-        <span className='youtube-page26'>
-          Página no Youtube de Ana Cláudia Quintana Arantes
+        <span className='youtube-page26'><a href="https://www.youtube.com/c/AnaClaudiaQuintanaArantes"> <button className='botao2'>
+        Página no Youtube de Ana Cláudia Quintana Arantes
+          </button> </a>
+        
         </span>
         <div className='link-icon-826'>
           <div className='vector-926' />
@@ -38,9 +43,12 @@ export default function PaginaVinteSeis() {
         <div className='rectangle-c26' />
         <div className='rectangle-d26' />
         <span className='quality-life-series26'>
+          <a href="https://iris.paho.or jág/bitstream/handle/10665.2/56094/OPASNMHNVcvn2210040_por.pdf?sequence=1&isAllowed=y"> <button className='botao3'>
           Série Qualidade de Vida para Crianças com Câncer. Módulos em Cuidados
           Paliativos Pediátricos. Atenção Domiciliar. Organização Mundial da
           Saúde e Organização Pan-Americana da Saúde.
+            </button > </a>
+       
         </span>
         <div className='duck-icon-link26'>
           <div className='vector-e26' />
@@ -54,8 +62,12 @@ export default function PaginaVinteSeis() {
         <div className='rectangle-1226' />
         <div className='rectangle-1326' />
         <span className='cartilha-cuidados-paliativos26'>
-          Cartilha sobre cuidados paliativos pediátricos para familiares e
+          <a href="https://api-wordpress.paliativo.org.br/wp-content/uploads/2022/06/Cartilha_Cuidados-paliativos-Pediatricosfinal.pdf
+"><button className='botao4'>
+  Cartilha sobre cuidados paliativos pediátricos para familiares e
           pacientes. Academia Nacional de Cuidados Paliativos.
+  </button></a>
+          
         </span>
         <div className='duck-icon-link-1426'>
           <div className='vector-1526' />
@@ -69,7 +81,8 @@ export default function PaginaVinteSeis() {
         <div className='rectangle-1926' />
         <div className='rectangle-1a26' />
         <span className='site-association-brasileira26'>
-          Site da Associação Brasileira de Linfoma e Leucemia. Câncer infantil.
+          <a href="https://www.abrale.org.br/#" target="_blank" rel="noopener noreferrer" ><button className='botao5'>Site da Associação Brasileira de Linfoma e Leucemia. Câncer infantil.
+            </button></a>
         </span>
         <div className='icon-link26'>
           <div className='vector-1b26' />

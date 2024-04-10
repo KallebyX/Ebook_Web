@@ -46,7 +46,7 @@ export default function PaginaVinteSete() {
       </div>
       <div className='group-727'>
         <div className='rectangle-827' />
-        <span className='opa-health27'>
+        <span className='opa-health27'><a href=""></a>
           OPAS. Organização Pan-Americana de Saúde. Série Qualidade de Vida para
           Crianças com Câncer. Módulos em Cuidados Paliativos Pediátricos. Mód.
           5, pg 1-5. OPAS/NMH/NV/cvn5/21-0040. Disponível em:

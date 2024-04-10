@@ -42,7 +42,7 @@
     height: 270px;
     top: 0;
     left: 379px;
-    background: url(src/assets/images/16.png)
+    background: url(../../assets/images/16.png)
       no-repeat center;
     background-size: cover;
     z-index: 15;
