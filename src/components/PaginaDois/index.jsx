@@ -85,11 +85,7 @@ export default function PaginaDois() {
           </span>
         </div>
         <div className='section-62a' />
-      </div>
-      <div className='rectangle-92a' />
-
-      {/* Botões de navegação */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <div style={{ width: '700px', position: 'absolute', bottom: '-55px', left: '65%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"
@@ -103,6 +99,11 @@ export default function PaginaDois() {
           style={{ cursor: 'pointer' }}
         />
       </div>
+      </div>
+      <div className='rectangle-92a' />
+
+      {/* Botões de navegação */}
+    
     </div>
   );
 }

@@ -47,10 +47,7 @@ export default function PaginaQuatro() {
         </div>
         <div className='rectangle-54' />
         <span className='author-presentation4'>APRESENTAÇÃO DAS AUTORAS</span>
-      </div>
-
-      {/* Botões de navegação */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '-344px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <div style={{ width: '700px', position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"
@@ -64,6 +61,10 @@ export default function PaginaQuatro() {
           style={{ cursor: 'pointer' }}
         />
       </div>
+      </div>
+
+      {/* Botões de navegação */}
+     
     </>
   );
 }

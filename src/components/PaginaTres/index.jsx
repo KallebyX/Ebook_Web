@@ -57,21 +57,9 @@ export default function PaginaTres() {
               <br />
             </span>
           </div>
+          
         </div>
-        <div className='group-63'>
-          <div className='chevron-right-73'>
-            <div className='vector-83' />
-          </div>
-          <div className='chevron-right-93' />
-        </div>
-        <div className='rectangle-a3' />
-      
-        <div className='rectangle-c3' />
-        <span className='como-navegar-este3'>COMO NAVEGAR NESTE E-BOOK</span>
-      </div>
-
-      {/* Botões de navegação com medidas especificadas */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '-344px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+        <div style={{ width: '700px', position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"
@@ -85,6 +73,24 @@ export default function PaginaTres() {
           style={{ cursor: 'pointer' }}
         />
       </div>
+        <div className='group-63'>
+          <div className='chevron-right-73'>
+            <div className='vector-83' />
+            
+          </div>
+          <div className='chevron-right-93' />
+        </div>
+        <div className='rectangle-a3' />
+        <div className='group-b3'>
+          <span className='span3'>3</span>
+          <div className='ellipse3' />
+        </div>
+        <div className='rectangle-c3' />
+        <span className='como-navegar-este3'>COMO NAVEGAR NESTE E-BOOK</span>
+      </div>
+
+      {/* Botões de navegação com medidas especificadas */}
+      
     </div>
   );
 }

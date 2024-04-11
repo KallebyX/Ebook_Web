@@ -26,21 +26,19 @@ export default function PaginaUm() {
           </span>
           <span className='e-book-interativo1'>
             E-book interativo para familiares que cuidam de crianças e
-            adolescentes com doença hemato-oncológica
+            adolescentes com doença hemato-oncológica.
           </span>
         </div>
         <div className='prancheta-copia-11' />
       </div>
-      <div className='prancheta-copia-21' />
-      {/* Botão de avançar */}
-      <div className='navigation-buttons'>
-      <img
-  src={avancarImg}
-  alt="Avançar"
-  onClick={avancarPagina}
-  style={{ cursor: 'pointer', position: 'fixed', bottom: '10px', left: 'calc(100% + 280px)', zIndex: '1000'}}
-/>
-
+      <div className='prancheta-copia-21'>
+        {/* Botão de avançar ajustado para aparecer sobre a imagem */}
+        <img
+          src={avancarImg}
+          alt="Avançar"
+          onClick={avancarPagina}
+          style={{ cursor: 'pointer', position: 'absolute', bottom: '0px', left: '130px', zIndex: '1' }}
+        />
       </div>
     </div>
   );
