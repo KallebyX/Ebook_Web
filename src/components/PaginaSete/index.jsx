@@ -7,20 +7,26 @@ import voltarImg from '../../assets/images/voltarp.png';
 export default function PaginaSete() {
   const navigate = useNavigate();
 
+  // Função para avançar para a próxima página
   const avancarPagina = () => {
-    navigate('/pagina-oito'); // Atualize esta rota conforme necessário
+    navigate('/pagina-oito');
   };
 
+  // Função para voltar para a página anterior
   const voltarPagina = () => {
-    navigate('/pagina-seis'); // Atualize esta rota conforme necessário
+    navigate('/pagina-seis');
+  };
+
+  // Função para abrir o vídeo em uma nova aba
+  const abrirVideo = () => {
+    window.open("https://www.youtube.com/watch?v=Fa4ctd1uxNc", "_blank");
   };
 
   return (
     <div className='main-container7'>
       <div className='understand-concept7'>
         <span className='understand-meaning7'>
-          Para compreender o significado destes cuidados, convido você a leitura
-          do conceito do termo
+          Para compreender o significado destes cuidados, convido você a leitura do conceito do termo
         </span>
         <span className='palliative-care7'>Cuidado Paliativo</span>
         <span className='colon7'>:</span>
@@ -125,27 +131,19 @@ export default function PaginaSete() {
           O que são cuidados paliativos? - YouTube
         </button>
       </a>
+      <a href="https://www.youtube.com/watch?v=Fa4ctd1uxNc" target="_blank" rel="noopener noreferrer" className="button-link">
       <div className='link-icon7'>
-        <div className='vector-197' />
+        <button className='vector-197' />
       </div>
+      </a>
       <div className='chevron-right-icon-1a7'>
         <div className='vector-1b7' />
       </div>
 
       {/* Botões de navegação */}
       <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
-        <img
-          src={voltarImg}
-          alt="Voltar"
-          onClick={voltarPagina}
-          style={{ cursor: 'pointer', marginRight: '600px' }}
-        />
-        <img
-          src={avancarImg}
-          alt="Avançar"
-          onClick={avancarPagina}
-          style={{ cursor: 'pointer' }}
-        />
+        <img src={voltarImg} alt="Voltar" onClick={voltarPagina} style={{ cursor: 'pointer', marginRight: '600px' }} />
+        <img src={avancarImg} alt="Avançar" onClick={avancarPagina} style={{ cursor: 'pointer' }} />
       </div>
     </div>
   );

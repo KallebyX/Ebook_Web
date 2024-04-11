@@ -500,9 +500,10 @@
     top: 815px;
     left: 30px;
     background: #87b04a;
-    z-index: 22;
+    z-index: 10;
     border-radius: 10px;
   }
+  
   .rectangle-177 {
     position: absolute;
     width: 20px;
@@ -513,6 +514,7 @@
     z-index: 23;
     border-radius: 10px 0 0 10px;
   }
+  
   .rectangle-187 {
     position: absolute;
     width: 50px;
@@ -522,6 +524,7 @@
     background: #93a9d1;
     z-index: 25;
   }
+  
   .button7 {
     position: absolute;
     display: flex;
@@ -567,6 +570,7 @@
       no-repeat center;
     background-size: 100% 100%;
     z-index: 27;
+    border: none;
   }
   .chevron-right-icon-1a7 {
     position: absolute;
