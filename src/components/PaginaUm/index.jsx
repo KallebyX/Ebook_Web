@@ -34,12 +34,13 @@ export default function PaginaUm() {
       <div className='prancheta-copia-21' />
       {/* Botão de avançar */}
       <div className='navigation-buttons'>
-        <img
-          src={avancarImg}
-          alt="Avançar"
-          onClick={avancarPagina}
-          style={{ cursor: 'pointer', position: 'absolute', bottom: '10px', left: '290px', zIndex: '0'}}
-        />
+      <img
+  src={avancarImg}
+  alt="Avançar"
+  onClick={avancarPagina}
+  style={{ cursor: 'pointer', position: 'fixed', bottom: '10px', left: 'calc(100% + 280px)', zIndex: '1000'}}
+/>
+
       </div>
     </div>
   );
