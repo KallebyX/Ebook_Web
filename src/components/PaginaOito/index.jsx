@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import avancarImg from '../../assets/images/avancar.png';
 import voltarImg from '../../assets/images/voltarp.png';
-import audioSrc1 from '../../assets/video/audio1.mpeg';
-import audioSrc2 from '../../assets/video/audio2.mpeg';
+import audioSrc1 from '../../assets/video/audio1.mp3';
+import audioSrc2 from '../../assets/video/audio2.mp3';
 
 export default function PaginaOito() {
   const navigate = useNavigate();
@@ -63,13 +63,6 @@ export default function PaginaOito() {
     };
   }, []);
 
-  const seekAudio = (audioRef, setProgress, e) => {
-    const audio = audioRef.current;
-    const seekTime = (audio.duration / 100) * e.target.value;
-    audio.currentTime = seekTime;
-    setProgress(e.target.value);
-  };
-
   const avancarPagina = () => {
     navigate('/pagina-nove'); // Atualize esta rota conforme necessário
   };
@@ -119,8 +112,12 @@ export default function PaginaOito() {
           <div className='vector-c8' />
         </div>
         <div className='ellipse-d8' />
-        <div className='rectangle-e8' style={{ width: '100%', backgroundColor: '#ddd' }}>
-          <div className='rectangle-f8' style={{ width: `${audioProgress2}%`, backgroundColor: 'blue', height: '100%' }} />
+        <div>
+          <div className='rectangle-e8' style={{ width: '100%', backgroundColor: '#ddd' }}>
+          </div>
+          <div>
+            <div className='rectangle-f8' style={{ width: `${audioProgress2}%`, backgroundColor: 'white', height: '100%' }} />
+          </div>
         </div>
       </div>
       <div className='group-108'>

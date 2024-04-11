@@ -299,19 +299,20 @@
   }
   .rectangle-e8 {
     position: relative;
-  width: 100%; /* Adjusted to fill the container */
-  height: 4px; /* Height of the progress bar */
-  background: #d9d9d9; /* Background of the progress bar */
-  margin-top: 20px; 
+    width: 500px; /* Largura desejada */
+    height: 2px;
+    flex-shrink: 0;
+    background: #d9d9d9; /* Cor de fundo */
+    margin-bottom: 10px;
   }
+  
   .rectangle-f8 {
     position: absolute;
-    width: 500px;
-    height: 2px;
-    top: 24px;
-    left: 130px;
-    background: #d9d9d9;
-    z-index: 32;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Cor da barra de progresso */
   }
   .group-108 {
     position: relative;
