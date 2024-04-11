@@ -46,16 +46,11 @@ export default function PaginaQuatro() {
           <div className='chevron-right-icon-44' />
         </div>
         <div className='rectangle-54' />
-        <div className='group-64'>
-          <span className='span4'>4</span>
-          <div className='ellipse4' />
-        </div>
-        <button className='button4' />
         <span className='author-presentation4'>APRESENTAÇÃO DAS AUTORAS</span>
       </div>
 
       {/* Botões de navegação */}
-      <div style={{ width: '700px', position: 'absolute', bottom: '-190px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
+      <div style={{ width: '700px', position: 'absolute', bottom: '-344px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
           src={voltarImg}
           alt="Voltar"
