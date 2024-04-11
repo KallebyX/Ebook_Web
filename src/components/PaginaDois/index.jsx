@@ -86,12 +86,6 @@ export default function PaginaDois() {
         </div>
         <div className='section-62a' />
       </div>
-      <div className='section-72a'>
-        <div className='duck-icon-chevron-right2a'>
-          <div className='vector2a' />
-        </div>
-        <div className='duck-icon-chevron-right-82a' />
-      </div>
       <div className='rectangle-92a' />
 
       {/* Botões de navegação */}
