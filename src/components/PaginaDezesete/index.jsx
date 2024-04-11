@@ -48,7 +48,18 @@ export default function PaginaDezesete() {
         <span className='control-symptoms17'>CONTROLE DOS SINTOMAS</span>
         <div className='rectangle-617' />
       </div>
-
+      <div className='prancheta-copia17' />
+      <div className='group-717'>
+        <div className='flex-row-ed17'>
+          <button className='rectangle-817' />
+          <span className='falta-de-apetite17'>FALTA DE APETITE</span>
+        </div>
+        <span className='criancas-e-adolescentes-cancer-avancado17'>
+          Em crianças e adolescentes com câncer avançado há uma diminuição do
+          apetite, sendo importante não forçar o alimento ofertado. <br />É
+          importante nesse momento, pedir o que gostaria de comer.
+        </span>
+      </div>
       {/* Botões de navegação */}
       <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
         <img
