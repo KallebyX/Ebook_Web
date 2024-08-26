@@ -1,0 +1,266 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container24 {
+    overflow: hidden;
+  }
+  
+  .main-container24,
+  .main-container24 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container24 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group24 {
+    position: relative;
+    width: 639px;
+    height: 40px;
+    margin: 360px 0 0 30px;
+    z-index: 8;
+    border-radius: 20px;
+  }
+  .rectangle24 {
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 9;
+    border-radius: 20px;
+  }
+  .cuidados24 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: center;
+    z-index: 10;
+  }
+  .converse-medico24 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 238px;
+    margin: 10px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 11;
+  }
+  .group-124 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 292px 0 0 30px;
+    z-index: 16;
+  }
+  .chevron-right-icon24 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 17;
+  }
+  .vector24 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/c71402f6-5f3e-4085-b2e8-d8ffa7f69972.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .chevron-right-icon-224 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/17f9400c-f529-4a30-ba8e-819a6d0962fe.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 19;
+  }
+  .rectangle-324 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-424 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 13;
+  }
+  .span24 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    height: 29px;
+    margin: 6px 0 0 4px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .ellipse24 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/f0e63b2e-7d33-4a1b-88f6-0ef66741d53e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 14;
+    border-radius: 50%;
+  }
+  .group-524 {
+    position: absolute;
+    width: 670px;
+    height: 34px;
+    top: 18px;
+    left: 0;
+    z-index: 1;
+  }
+  .control-symptoms24 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .rectangle-624 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 2px;
+    left: 0;
+    background: #88b04b;
+    z-index: 2;
+  }
+  .prancheta-copia24 {
+    position: absolute;
+    width: 258px;
+    height: 260px;
+    top: 80px;
+    left: 30px;
+    background: url(../../assets/images/14.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .group-724 {
+    position: absolute;
+    width: 350px;
+    height: 258px;
+    top: 81px;
+    left: 320px;
+    font-size: 0px;
+    z-index: 4;
+    border-radius: 25px;
+  }
+  .neutropenia-info24 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 344px;
+    height: 198px;
+    margin: 60px 0 0 3px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 5;
+  }
+  .rectangle-824 {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #93a9d1;
+    border: none;
+    z-index: 6;
+    border-radius: 25px;
+  }
+  .neutropenia-defense-immunity24 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    top: 7px;
+    left: 0;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    z-index: 7;
+  }
+  

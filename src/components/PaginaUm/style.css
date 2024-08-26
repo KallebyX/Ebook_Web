@@ -1,0 +1,142 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container1 {
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+  height: 1000px;
+  margin: 0 auto;
+  font-size: 0px;
+  background: #ffffff;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container1,
+.main-container1 * {
+  box-sizing: border-box;
+}
+
+.heloisa-catto-dal1 {
+  display: block;
+  position: relative;
+  height: 43px;
+  margin: 30px 0 0 30px;
+  color: #d9d9d9;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.665px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 700px;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+}
+
+.group1 {
+  position: absolute;
+  width: 640px;
+  height: 839px;
+  top: 50%;
+  left: 30px;
+  transform: translate(0, -50.06%);
+  z-index: 1;
+}
+
+.prancheta-copia1 {
+  position: absolute;
+  width: 362px;
+  height: 335px;
+  top: 0;
+  left: 278px;
+  background: url(../../assets/images/9b5e7a14-999a-47dd-8349-8ecc127e7ead.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 516px;
+  height: 516px;
+  top: 168px;
+  left: 124px;
+  background: url(src/assets/images/Ellipse6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.e-book1 {
+  position: absolute;
+  width: 445px;
+  height: 116px;
+  top: 368px;
+  left: 159px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.256px;
+  text-align: right;
+  z-index: 5;
+}
+
+.cuidando-de-quem-amamos1,
+.e-book-interativo1 {
+  position: relative;
+  color: #111111; /* for cuidando-de-quem-amamos */
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900; /* and 400 for e-book-interativo */
+  line-height: 29.256px;
+  text-align: right;
+}
+
+.e-book-interativo1 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.prancheta-copia-11 {
+  position: absolute;
+  width: 357px;
+  height: 361px;
+  top: 478px;
+  left: 0;
+  background: url(../../assets/images/b17cd621-7cb0-4cef-9535-9ab49f6140d9.png.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.prancheta-copia-21 {
+  position: absolute;
+  width: 150px;
+  height: 160px;
+  top: 810px;
+  left: 520px;
+  background: url('../../assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png') no-repeat center;
+  background-size: cover;
+  z-index: 0;
+}
+
+/* Estilos adicionais podem ser necessários para os outros elementos */
+

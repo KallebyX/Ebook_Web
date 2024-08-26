@@ -1,0 +1,289 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container27 {
+    overflow: hidden;
+  }
+  
+  .main-container27,
+  .main-container27 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container27 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group27 {
+    position: relative;
+    width: 640px;
+    height: 100px;
+    margin: 80px 0 0 30px;
+    z-index: 3;
+  }
+  .rectangle27 {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 5;
+  }
+  .maria-perez-soares-dalessandro27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 88px;
+    top: 6px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 4;
+  }
+  .group-127 {
+    position: relative;
+    width: 640px;
+    height: 140px;
+    margin: 30px 0 0 30px;
+    z-index: 6;
+  }
+  .rectangle-227 {
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 8;
+  }
+  .opas-organizacao-pan-americana27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 132px;
+    top: 4px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 7;
+  }
+  .group-327 {
+    position: relative;
+    width: 640px;
+    height: 140px;
+    margin: 30px 0 0 30px;
+    z-index: 9;
+  }
+  .rectangle-427 {
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 11;
+  }
+  .sociedade-brasileira-de-pediatria27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 132px;
+    top: 4px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 10;
+  }
+  .group-527 {
+    position: relative;
+    width: 640px;
+    height: 120px;
+    margin: 30px 0 0 30px;
+    z-index: 12;
+  }
+  .rectangle-627 {
+    position: absolute;
+    width: 20px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 14;
+  }
+  .brasil-ministerio-saude27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 110px;
+    top: 5px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 13;
+  }
+  .group-727 {
+    position: relative;
+    width: 640px;
+    height: 140px;
+    margin: 30px 0 0 30px;
+    z-index: 15;
+  }
+  .rectangle-827 {
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 17;
+  }
+  .opa-health27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 132px;
+    top: 4px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 16;
+  }
+  .group-927 {
+    position: relative;
+    width: 24.275px;
+    height: 40px;
+    margin: 100px 0 0 30px;
+    z-index: 21;
+    overflow: visible auto;
+  }
+  .chevron-right-icon27 {
+    position: relative;
+    width: 24.275px;
+    height: 40px;
+    margin: 0 0 0 0px;
+    background: url(../assets/images/e893be80-d522-4925-ad80-cb532b545602.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 22;
+  }
+  .rectangle-a27 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-b27 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 18;
+  }
+  .number-2727 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 31px;
+    height: 29px;
+    margin: 6px 0 0 5px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .ellipse27 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/470b7744-dc32-4c48-bd4f-f944dbf12bdc.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;
+    border-radius: 50%;
+  }
+  .references-c27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 18px;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .rectangle-d27 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 20px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 1;
+  }
+  

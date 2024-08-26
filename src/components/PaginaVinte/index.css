@@ -1,0 +1,202 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container20 {
+    overflow: hidden;
+  }
+  
+  .main-container20,
+  .main-container20 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container20 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group20 {
+    position: relative;
+    width: 639px;
+    height: 40px;
+    margin: 80px 0 0 30px;
+    z-index: 4;
+    border-radius: 20px;
+  }
+  .rectangle20 {
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 5;
+    border-radius: 20px;
+  }
+  .care-continuation20 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: center;
+    z-index: 6;
+  }
+  .nutritionist-assessment20 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 284px;
+    margin: 10px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 7;
+  }
+  .group-120 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 526px 0 0 30px;
+    z-index: 11;
+  }
+  .chevron-right-icon20 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 12;
+  }
+  .vector20 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/fc4306ba-b1e2-4a5d-bb9e-e4670256e3d9.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 13;
+  }
+  .chevron-right-icon-220 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/f9904d1f-50e4-43b5-b68c-301d9328d525.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+  }
+  .rectangle-320 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-420 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 8;
+  }
+  .span20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    height: 29px;
+    margin: 6px 0 0 4px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .ellipse20 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/607a0bcc-10ca-4b4d-8f7b-a91dab5cb594.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 9;
+    border-radius: 50%;
+  }
+  .group-520 {
+    position: absolute;
+    width: 670px;
+    height: 34px;
+    top: 18px;
+    left: 0;
+    z-index: 1;
+  }
+  .control-symptoms20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .rectangle-button20 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 2px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 2;
+  }
+  

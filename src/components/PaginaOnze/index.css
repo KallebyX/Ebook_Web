@@ -1,0 +1,396 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container-11 {
+  overflow: hidden;
+}
+
+.main-container-11,
+.main-container-11 * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container-11 {
+  position: relative;
+  width: 700px;
+  height: 1000px;
+  margin: 0 auto;
+  font-size: 0px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.apos-reconhecer-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 639px;
+  height: 150px;
+  margin: 110px 0 0 31px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.942px;
+  text-align: left;
+  z-index: 8;
+}
+
+.planejamento-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 639px;
+  height: 83px;
+  margin: 20px 0 0 31px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.942px;
+  text-align: left;
+  z-index: 9;
+}
+
+.group-11 {
+  position: relative;
+  width: 670px;
+  height: 48px;
+  margin: 20px 0 0 0;
+  z-index: 14;
+}
+
+.primeiro-contato-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 570px;
+  height: 48px;
+  top: 0;
+  left: 100px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  z-index: 16;
+}
+
+.rectangle-11 {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 9px;
+  left: 0;
+  cursor: pointer;
+  background: #88b04b;
+  border: none;
+  z-index: 15;
+}
+
+.group-1-11 {
+  position: relative;
+  width: 640.274px;
+  height: 40px;
+  margin: 509px 0 0 30px;
+  z-index: 20;
+}
+
+.chevron-right-icon-11 {
+  position: absolute;
+  width: 24.275px;
+  height: 40px;
+  top: 0;
+  left: 616px;
+  z-index: 21;
+}
+
+.vector-11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/537c47fa-a1a8-454f-bdfa-8a6396d0dc24.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 22;
+}
+
+.chevron-right-icon-2-11 {
+  position: absolute;
+  width: 3.79%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  background: url(../assets/images/3ff1387b-b09e-4b97-846b-a9a93a9b308e.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 23;
+}
+
+.rectangle-3-11 {
+  position: absolute;
+  width: 700px;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+}
+
+.group-4-11 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  left: 630px;
+  font-size: 0px;
+  z-index: 24;
+}
+
+.span-eleven-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 21px;
+  height: 29px;
+  margin: 6px 0 0 10px;
+  color: #d9d9d9;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 26;
+}
+
+.div-ellipse-11 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/9616d052-a8c1-445e-9abf-3aaccdd27203.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+  border-radius: 50%;
+}
+
+.div-group-11 {
+  position: absolute;
+  width: 670px;
+  height: 68px;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+}
+
+.span-cuidados-paliativos-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 570px;
+  height: 68px;
+  top: 0;
+  left: 100px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 34.132px;
+  text-align: left;
+  z-index: 3;
+}
+
+.button-rectangle-11 {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 19px;
+  left: 0;
+  cursor: pointer;
+  background: #88b04b;
+  border: none;
+  z-index: 2;
+}
+
+.div-ellipse-5-11 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 451px;
+  left: 60px;
+  background: url(../../assets/images/Ellipse2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 50%;
+}
+
+.ellipse-11 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 451px;
+  left: 410px;
+  background: url(../../assets/images/Ellipse2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+  border-radius: 50%;
+}
+
+.care-request-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 177px;
+  height: 146px;
+  top: 480px;
+  left: 87px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  z-index: 10;
+}
+
+.conversation-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 166px;
+  height: 39px;
+  top: 547px;
+  left: 442px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.942px;
+  text-align: center;
+  z-index: 13;
+}
+
+.arrow-11 {
+  position: absolute;
+  width: 55px;
+  height: 36.82px;
+  top: 547.59px;
+  left: 50%;
+  background: url(../../assets/images/setaD.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-50%, 0);
+  z-index: 17;
+}
+
+.arrow-6-11 {
+  position: absolute;
+  width: 36.819px;
+  height: 35px;
+  top: 668.5px;
+  left: 507.59px;
+  background: url(../../assets/images/setaB.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+
+.ellipse-7-11 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 690px;
+  left: 410px;
+  background: url(../../assets/images/Ellipse2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  border-radius: 50%;
+}
+
+.ellipse-8-11 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 690px;
+  left: 58px;
+  background: url(../../assets/images/Ellipse2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  border-radius: 50%;
+}
+
+.necessidades-individuais-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 191px;
+  height: 146px;
+  top: 724px;
+  left: 430px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  z-index: 12;
+}
+
+.organizacao-cuidados-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 183px;
+  height: 96px;
+  top: 757px;
+  left: 81px;
+  color: #111111;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  z-index: 11;
+}
+
+.arrow-9-11 {
+  position: absolute;
+  width: 55px;
+  height: 36.82px;
+  top: 786.59px;
+  left: 50%;
+  background: url(../../assets/images/setaE.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-50%, 0);
+  z-index: 19;
+}

@@ -1,0 +1,688 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container26 {
+    overflow: hidden;
+  }
+  
+  .main-container26,
+  .main-container26 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container26 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .button-group26 {
+    position: relative;
+    width: 640px;
+    height: 60px;
+    margin: 80px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 3;
+  }
+  .rectangle26 {
+    position: absolute;
+    width: 640px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 4;
+    border-radius: 20px;
+  }
+  .rectangle-126 {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 5;
+    border-radius: 20px 0 0 20px;
+  }
+  .rectangle-226 {
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 7;
+  }
+  .livros-acqa26 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 519px;
+    height: 40px;
+    top: 10px;
+    left: 111px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 6;
+    overflow: hidden;
+  }
+  .link-icon26 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 30px;
+    z-index: 8;
+  }
+  .vector26 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    background: url(../../assets/images/Vector.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+  }
+  .chevron-right-icon26 {
+    position: absolute;
+    width: 18.206px;
+    height: 30px;
+    top: 15px;
+    left: 80px;
+    z-index: 10;
+  }
+  .vector-326 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/left.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 11;
+  }
+  .button-group-426 {
+    position: relative;
+    width: 640px;
+    height: 60px;
+    margin: 38px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 21;
+  }
+  .rectangle-526 {
+    position: absolute;
+    width: 640px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 22;
+    border-radius: 20px;
+  }
+  .rectangle-626 {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 23;
+    border-radius: 20px 0 0 20px;
+  }
+  .rectangle-726 {
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 25;
+  }
+  .youtube-page26 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 519px;
+    height: 40px;
+    top: 10px;
+    left: 111px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    z-index: 24;
+  }
+  .link-icon-826 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 30px;
+    z-index: 26;
+  }
+  .vector-926 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    background: url(../../assets/images/Vector.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 27;
+  }
+  .chevron-icon26 {
+    position: absolute;
+    width: 18.206px;
+    height: 30px;
+    top: 15px;
+    left: 80px;
+    z-index: 28;
+  }
+  .vector-a26 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/left.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 29;
+  }
+  .group26 {
+    position: relative;
+    width: 640px;
+    height: 90px;
+    margin: 38px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 39;
+  }
+  .rectangle-b26 {
+    position: absolute;
+    width: 640px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 40;
+    border-radius: 20px;
+  }
+  .rectangle-c26 {
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 41;
+    border-radius: 20px 0 0 20px;
+  }
+  .rectangle-d26 {
+    position: absolute;
+    width: 50px;
+    height: 90px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 43;
+  }
+  .quality-life-series26 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 519px;
+    height: 80px;
+    top: 5px;
+    left: 111px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    z-index: 42;
+  }
+  .duck-icon-link26 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 30px;
+    z-index: 44;
+  }
+  .vector-e26 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    background: url(../../assets/images/Vector.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 45;
+  }
+  .duck-icon-chevron-right26 {
+    position: absolute;
+    width: 18.206px;
+    height: 30px;
+    top: 30px;
+    left: 80px;
+    z-index: 46;
+  }
+  .vector-f26 {
+    position: relative;
+    width: 30px;
+    height: 30px;  
+    top: 0;
+    left: 70px;
+    background: url(../../assets/images/left.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 47;
+  }
+  .button-group-1026 {
+    position: relative;
+    width: 640px;
+    height: 70px;
+    margin: 38px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 30;
+  }
+  .rectangle-1126 {
+    position: absolute;
+    width: 640px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 31;
+    border-radius: 20px;
+  }
+  .rectangle-1226 {
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 32;
+    border-radius: 20px 0 0 20px;
+  }
+  .rectangle-1326 {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 34;
+  }
+  .cartilha-cuidados-paliativos26 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 481px;
+    height: 60px;
+    top: 5px;
+    left: 111px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    z-index: 33;
+  }
+  .duck-icon-link-1426 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 30px;
+    z-index: 35;
+  }
+  .vector-1526 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    background: url(../../assets/images/Vector.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 36;
+  }
+  .duck-icon-chevron-right-1626 {
+    position: absolute;
+    width: 18.206px;
+    height: 30px;
+    top: 20px;
+    left: 80px;
+    z-index: 37;
+  }
+  .vector-1726 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/left.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 38;
+  }
+  .button26 {
+    position: relative;
+    width: 640px;
+    height: 60px;
+    margin: 38px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 12;
+  }
+  .rectangle-1826 {
+    position: absolute;
+    width: 640px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 13;
+    border-radius: 20px;
+  }
+  .rectangle-1926 {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 14;
+    border-radius: 20px 0 0 20px;
+  }
+  .rectangle-1a26 {
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 16;
+  }
+  .site-association-brasileira26 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 519px;
+    height: 40px;
+    top: 10px;
+    left: 111px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    z-index: 15;
+  }
+  .icon-link26 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 30px;
+    z-index: 17;
+  }
+  .vector-1b26 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
+    background: url(../../assets/images/Vector.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .icon-chevron-right26 {
+    position: absolute;
+    width: 18.206px;
+    height: 30px;
+    top: 15px;
+    left: 80px;
+    z-index: 19;
+  }
+  .vector-1c26 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/left.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 20;
+  }
+  .group-1d26 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 368px 0 0 30px;
+    z-index: 51;
+  }
+  .icon-chevron-right-1e26 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 52;
+  }
+  .vector-1f26 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/f0f2d870-8a78-4a74-998a-c1e26e2a612d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 53;
+  }
+  .chevron-right-icon-2026 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/ea2e8fc1-a2c3-4bef-a147-33416bee417e.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 54;
+  }
+  .rectangle-2126 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-2226 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 48;
+  }
+  .number-2626 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 31px;
+    height: 29px;
+    margin: 6px 0 0 5px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 50;
+  }
+  .ellipse26 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/3e2e87da-7c5e-4a39-bfdc-0bc56e7c5e4e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 49;
+    border-radius: 50%;
+  }
+  .suggestion-of-reading26 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 18px;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .rectangle-2326 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 20px;
+    left: 0;
+    background: #88b04b;
+    z-index: 1;
+  }
+  .botao1 {
+    width: 519px;
+    height: 40px;
+    top: 188px;
+    left: 141px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    background-color: #87b04a;
+    border: none;
+    color: #D9D9D9;
+  }
+  .botao2{
+    width: 519px;
+height: 40px;
+top: 188px;
+left: 141px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+background-color: #87b04a;
+border: none;
+color: #D9D9D9;
+  }
+  .botao3 {
+    width: 519px;
+height: 80px;
+top: 281px;
+left: 141px;
+color: #D9D9D9;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+background-color: #87b04a;
+border : none;
+  }
+
+  .botao4 {
+    width: 519px;
+    height: 40px;
+    top: 188px;
+    left: 141px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    background-color: #87b04a;
+    border: none;
+    color: #D9D9D9;
+  }
+  .botao5 {
+    width: 519px;
+    height: 40px;
+    top: 188px;
+    left: 141px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    background-color: #87b04a;
+    border: none;
+    color: #D9D9D9;
+  }

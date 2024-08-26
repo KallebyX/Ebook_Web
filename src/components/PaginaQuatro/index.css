@@ -1,0 +1,257 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container4 {
+    overflow: hidden;
+  }
+  
+  .main-container4,
+  .main-container4 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container4 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group4 {
+    position: relative;
+    width: 640px;
+    height: 336px;
+    margin: 80px 0 0 30px;
+    font-size: 0px;
+    z-index: 3;
+    overflow: visible auto;
+  }
+  .enfermagem-oncologia-maternoinfantil4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 286px;
+    margin: 50px 0 0 0;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 5;
+  }
+  .rectangle4 {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/e80231f3-a5ed-467c-ae93-de03c8d227e9.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .heloisa-catto-dal-forno4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 3px;
+    left: 30px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .group-14 {
+    position: relative;
+    width: 640px;
+    height: 336px;
+    margin: 168px 0 0 30px;
+    z-index: 7;
+    overflow: visible auto;
+  }
+  .flex-row-ac4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 495px;
+    height: 40px;
+    margin: 0 0 0 145px;
+    z-index: 9;
+  }
+  .carla-lizandra-de-lima-ferreira4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 465px;
+    height: 34px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .rectangle-24 {
+    flex-shrink: 0;
+    position: relative;
+    width: 20px;
+    height: 40px;
+    background: url(../assets/images/766b6daa-344d-41ac-9cb6-9a22f16ef996.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 9;
+  }
+  .text-44 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 640px;
+    height: 286px;
+    margin: 10px 0 0 0;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: right;
+    z-index: 10;
+  }
+  .group-34 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 20px 0 0 30px;
+    z-index: 14;
+  }
+  .chevron-right-icon4 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 15;
+  }
+  .vector4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/d976bf89-9029-4738-bcdf-ba2764073207.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 16;
+  }
+  .chevron-right-icon-44 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/af737160-c103-4164-93b8-34c01b0d701b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 17;
+  }
+  .rectangle-54 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-64 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 11;
+  }
+  .span4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 18px;
+    height: 29px;
+    margin: 6px 0 0 11px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .ellipse4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/52c2649a-17cc-45a6-9fd9-d966c6b11f12.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+    border-radius: 50%;
+  }
+  .button4 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 20px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 1;
+  }
+  .author-presentation4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 20px;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  

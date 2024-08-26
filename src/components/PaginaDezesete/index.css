@@ -1,0 +1,275 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container17 {
+    overflow: hidden;
+  }
+  
+  .main-container17,
+  .main-container17 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container17 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group17 {
+    position: relative;
+    width: 639px;
+    height: 40px;
+    margin: 360px 0 0 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 8;
+    border-radius: 20px;
+  }
+  .rectangle17 {
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: #93a9d1;
+    z-index: 9;
+    border-radius: 20px;
+  }
+  .care17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 639px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: center;
+    z-index: 10;
+  }
+  .care-instructions17 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 270px;
+    margin: 10px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 11;
+  }
+  .group-117 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 260px 0 0 30px;
+    z-index: 13;
+  }
+  .chevron-right-icon17 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 14;
+  }
+  .vector17 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/49b28c0c-a9b8-4047-acc2-55ded569304a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .chevron-right-icon-217 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/b1ff5dd1-9dc9-4c98-a5ec-20662b3d9e4f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 16;
+  }
+  .rectangle-317 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-417 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 17;
+  }
+  .span17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 26px;
+    height: 29px;
+    margin: 6px 0 0 7px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .ellipse17 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/033ddd9b-c368-4e94-bd86-3555c2873034.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+    border-radius: 50%;
+  }
+  .group-517 {
+    position: absolute;
+    width: 670px;
+    height: 34px;
+    top: 18px;
+    left: 0;
+    z-index: 1;
+  }
+  .control-symptoms17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .rectangle-617 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 2px;
+    left: 0;
+    background: #88b04b;
+    z-index: 2;
+  }
+  .prancheta-copia17 {
+    position: absolute;
+    width: 259px;
+    height: 270px;
+    top: 80px;
+    left: 30px;
+    background: url(../../assets/images/16.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .group-717 {
+    position: absolute;
+    width: 350px;
+    height: 177px;
+    top: 126px;
+    left: 319px;
+    z-index: 4;
+    border-radius: 20px;
+  }
+  .flex-row-ed17 {
+    position: relative;
+    width: 350px;
+    height: 40px;
+    margin: 0 0 0 0;
+    z-index: 7;
+  }
+  .rectangle-817 {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #93a9d1;
+    border: none;
+    z-index: 6;
+    border-radius: 20px;
+  }
+  .falta-de-apetite17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: center;
+    z-index: 7;
+  }
+  .criancas-e-adolescentes-cancer-avancado17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 344px;
+    height: 127px;
+    margin: 10px 0 0 3px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: center;
+    z-index: 5;
+  }
+  

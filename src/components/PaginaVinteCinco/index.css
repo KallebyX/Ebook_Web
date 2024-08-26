@@ -1,0 +1,144 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container25 {
+    overflow: hidden;
+  }
+  
+  .main-container25,
+  .main-container25 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container25 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .group25 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 15px 0 0 630px;
+    font-size: 0px;
+    z-index: 1;
+    overflow: visible auto;
+  }
+  .text-2525 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 30px;
+    height: 29px;
+    margin: 6px 0 0 5px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .ellipse25 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/35f88ea7-3831-4881-ade9-c4ca82b72bb2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    border-radius: 50%;
+  }
+  .rectangle25 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .prancheta-copia25 {
+    position: absolute;
+    width: 411px;
+    height: 927px;
+    top: 81px;
+    left: 245px;
+    background: url(../../assets/images/25.png)
+    ;
+    background-size: cover;
+    z-index: 5;
+  }
+  .tratamentos-medicamentos25 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 396px;
+    height: 215px;
+    top: 155px;
+    left: 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    z-index: 4;
+  }
+  .group-125 {
+    position: absolute;
+    width: 640.274px;
+    height: 40px;
+    top: 940px;
+    left: 30px;
+    z-index: 6;
+  }
+  .chevron-right25 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 7;
+  }
+  .vector25 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/d114203f-63d5-4b82-b244-7cb79e2f9318.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+  }
+  .duck-icon-chevron-right25 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/4f66c0ef-a13c-49c6-bfe2-f4de2ce4c743.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+  }
+  

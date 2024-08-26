@@ -1,0 +1,463 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container8 {
+    overflow: hidden;
+  }
+  
+  .main-container8,
+  .main-container8 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container8 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .equipe-saude8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 42px;
+    margin: 110px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 4;
+    overflow: hidden;
+  }
+  .group8 {
+    position: relative;
+    width: 640px;
+    height: 90px;
+    margin: 241px 0 0 30px;
+    z-index: 9;
+  }
+  .rectangle8 {
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    top: 0;
+    left: 620px;
+    background: #93a9d1;
+    z-index: 11;
+  }
+  .plano-cuidados8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 610px;
+    height: 83px;
+    top: 4px;
+    left: 0;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: right;
+    z-index: 10;
+  }
+  .enfermeira-noeli8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 639px;
+    height: 88px;
+    margin: 20px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 6;
+  }
+  .group-18 {
+    position: relative;
+    width: 640px;
+    height: 50px;
+    margin: 20px 0 0 30px;
+    z-index: 15;
+  }
+  .rectangle-28 {
+    position: absolute;
+    width: 640px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 16;
+    border-radius: 10px;
+  }
+  .rectangle-38 {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 17;
+    border-radius: 10px 0 0 10px;
+  }
+  .rectangle-48 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 18;
+  }
+  .player-skip-forward8 {
+    position: absolute;
+    width: 4.69%;
+    height: 60%;
+    top: 20%;
+    left: 12.5%;
+    background: url(../../assets/images/skip.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 19;
+  }
+  .volume-down8 {
+    position: absolute;
+    width: 30.001px;
+    height: 30px;
+    top: 10px;
+    left: 30px;
+    z-index: 20;
+  }
+  .vector8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/VolumeDown.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 21;
+  }
+  .ellipse8 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: 225px;
+    background: url(../assets/images/68a5c44b-cb07-4f7d-b86c-9dbe18ba2628.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 24;
+    border-radius: 50%;
+  }
+  .rectangle-58 {
+    position: relative;
+  width: 100%; /* Adjusted to fill the container */
+  height: 4px; /* Height of the progress bar */
+  background: #d9d9d9; /* Background of the progress bar */
+  margin-top: 20px; 
+  }
+  .button8 {
+    position: absolute;
+    width: 500px;
+    height: 2px;
+    top: 24px;
+    left: 130px;
+    cursor: pointer;
+    background: #d9d9d9;
+    border: none;
+    z-index: 15;
+  }
+  .progress-bar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF; /* Cor de fundo branca */
+    z-index: 14; /* Certifique-se de que esteja atrás do indicador de progresso, mas na frente do contêiner da barra de progresso */
+  }
+  
+  .fisioterapeuta-claudia-turra-rossato8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 639px;
+    height: 61px;
+    margin: 50px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 7;
+  }
+  .group-68 {
+    position: relative;
+    width: 640px;
+    height: 50px;
+    margin: 20px 0 0 30px;
+    z-index: 25;
+  }
+  .rectangle-78 {
+    position: absolute;
+    width: 640px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #87b04a;
+    z-index: 26;
+    border-radius: 10px;
+  }
+  .rectangle-88 {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #66648b;
+    z-index: 27;
+    border-radius: 10px 0 0 10px;
+  }
+  .rectangle-98 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 20px;
+    background: #93a9d1;
+    z-index: 28;
+  }
+  .player-skip-forward-a8 {
+    position: absolute;
+    width: 4.69%;
+    height: 60%;
+    top: 20%;
+    left: 12.5%;
+    background: url(../../assets/images/skip.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 29;
+  }
+  .volume-down-b8 {
+    position: absolute;
+    width: 30.001px;
+    height: 30px;
+    top: 10px;
+    left: 30px;
+    z-index: 30;
+  }
+  .vector-c8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/images/VolumeDown.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 31;
+  }
+  .ellipse-d8 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: 225px;
+    background: url(../assets/images/5b5d0a58-6856-47bb-9a5d-09a1fb78d2ff.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 34;
+    border-radius: 50%;
+  }
+  .rectangle-e8 {
+    position: relative;
+    width: 500px; /* Largura desejada */
+    height: 2px;
+    flex-shrink: 0;
+    background: #d9d9d9; /* Cor de fundo */
+    margin-bottom: 10px;
+  }
+  
+  .rectangle-f8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Cor da barra de progresso */
+  }
+  .group-108 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 98px 0 0 29px;
+    z-index: 35;
+  }
+  .chevron-right-icon8 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 36;
+  }
+  .vector-118 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/dc66b6fe-74f8-47f1-8638-12d48a08e28a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 37;
+  }
+  .chevron-right-icon-128 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/b87ec3ba-104e-4cda-9990-d75db2168358.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 38;
+  }
+  .rectangle-138 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-148 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 12;
+  }
+  .span8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 17px;
+    height: 29px;
+    margin: 6px 0 0 12px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .ellipse-158 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/29fe3f50-f579-4583-8e02-d91906815da1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+    border-radius: 50%;
+  }
+  .group-168 {
+    position: absolute;
+    width: 670px;
+    height: 68px;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+  }
+  .span-178 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 570px;
+    height: 68px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34.132px;
+    text-align: left;
+    z-index: 3;
+  }
+  .button-188 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 19px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 2;
+    border-radius: 0px;
+  }
+  .rectangle-198 {
+    position: absolute;
+    width: 20px;
+    height: 200px;
+    top: 172px;
+    left: 30px;
+    background: #93a9d1;
+    z-index: 8;
+  }
+  .span-1a8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 610px;
+    height: 192px;
+    top: 176px;
+    left: 60px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 5;
+  }
+  

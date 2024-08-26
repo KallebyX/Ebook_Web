@@ -1,0 +1,227 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container9 {
+    overflow: hidden;
+  }
+  
+  .main-container9,
+  .main-container9 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container9 {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle9 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 617px;
+    height: 356px;
+    margin: 110px 0 0 42px;
+    z-index: 16;
+  }
+  .group9 {
+    position: relative;
+    width: 670px;
+    height: 30px;
+    margin: 20px 0 0 0;
+    z-index: 4;
+  }
+  .rectangle-19 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 5;
+  }
+  .suffering-manifestation9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 4px;
+    left: 100px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .possible-cure9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 639px;
+    height: 259px;
+    margin: 20px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 7;
+  }
+  .palliative-care9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 640px;
+    height: 105px;
+    margin: 20px 0 0 30px;
+    color: #111111;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.942px;
+    text-align: left;
+    z-index: 8;
+  }
+  .group-29 {
+    position: relative;
+    width: 640.274px;
+    height: 40px;
+    margin: 20px 0 0 29px;
+    z-index: 12;
+  }
+  .chevron-right9 {
+    position: absolute;
+    width: 24.275px;
+    height: 40px;
+    top: 0;
+    left: 616px;
+    z-index: 13;
+  }
+  .vector9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/62f036f2-5e4e-4412-b91b-ed1c2d153aaa.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+  }
+  .duck-icon9 {
+    position: absolute;
+    width: 3.79%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    background: url(../assets/images/3782ee3d-bd20-432d-80ea-ecdc6b79d9b0.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .rectangle-39 {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+  }
+  .group-49 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 630px;
+    font-size: 0px;
+    z-index: 9;
+  }
+  .number-99 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 16px;
+    height: 29px;
+    margin: 6px 0 0 12px;
+    color: #d9d9d9;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .ellipse9 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/56c108fc-217d-4eba-b180-f53c6156d67b.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  .group-59 {
+    position: absolute;
+    width: 670px;
+    height: 68px;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+  }
+  .minha-familia9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 570px;
+    height: 68px;
+    top: 0;
+    left: 100px;
+    color: #66648b;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34.132px;
+    text-align: left;
+    z-index: 3;
+  }
+  .rectangle-69 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 19px;
+    left: 0;
+    cursor: pointer;
+    background: #88b04b;
+    border: none;
+    z-index: 2;
+  }
+  

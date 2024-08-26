@@ -1,0 +1,804 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container6cc {
+  overflow: hidden;
+}
+
+.main-container6cc,
+.main-container6cc * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container6cc {
+  position: relative;
+  width: 700px;
+  height: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.group6cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 162px 0 0 30px;
+  z-index: 6;
+}
+.rectangle6cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 7;
+  border-radius: 10px;
+}
+.rectangle-16cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 8;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-26cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 9;
+  border-radius: 10px 0 0 10px;
+}
+.care-palliative6cc {
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  background: transparent;
+  border: none;
+  z-index: 10;
+}
+.chevron-right6cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 11;
+}
+.vector6cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+}
+.number-16cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 17px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.group-36cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 30px;
+  z-index: 14;
+}
+.rectangle-46cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 15;
+  border-radius: 10px;
+}
+.rectangle-56cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 16;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-66cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 17;
+  border-radius: 10px 0 0 10px;
+}
+.who-participates6cc {
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  background: transparent;
+  border: none;
+  z-index: 18;
+}
+.duck-icon-chevron-right6cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 19;
+}
+.vector-76cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 20;
+}
+.span6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 13px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.button-group6cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 22;
+}
+.rectangle-86cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 23;
+  border-radius: 10px;
+}
+.rectangle-96cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 24;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-a6cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 25;
+  border-radius: 10px 0 0 10px;
+}
+.question6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  z-index: 26;
+}
+.duck-icon-chevron-right-b6cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 27;
+}
+.vector-c6cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 28;
+}
+.span-d6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 13px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.button-group-e6cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 0px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 30;
+}
+.rectangle-f6cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 31;
+  border-radius: 10px;
+}
+.rectangle-106cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 32;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-116cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 33;
+  border-radius: 10px 0 0 10px;
+}
+.como-os-cuidados6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  z-index: 34;
+}
+.icon-chevron-right6cc{
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 35;
+}
+.vector-126cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 36;
+}
+.number-46cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 10px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 37;
+}
+.group-136cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 0px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 38;
+}
+.rectangle-146cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 39;
+  border-radius: 10px;
+}
+.rectangle-156cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 40;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-166cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 41;
+  border-radius: 10px 0 0 10px;
+}
+.controle-dos-sintomas6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  z-index: 42;
+}
+.icon-chevron-right-176cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 43;
+}
+.vector-186cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 44;
+}
+.number-56cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 13px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 45;
+}
+.group-196cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 00px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 46;
+}
+.rectangle-1a6cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 47;
+  border-radius: 10px;
+}
+.rectangle-1b6cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 48;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-1c6cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 49;
+  border-radius: 10px 0 0 10px;
+}
+.referencias {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+}
+.sugestao-de-leitura6cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  left: 70px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  z-index: 50;
+}
+.chevron-right-icon6cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 51;
+}
+.vector-1d6cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 52;
+}
+.number-66cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 12px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 53;
+}
+.group-1e6cc {
+  position: relative;
+  width: 640px;
+  height: 60px;
+  margin: 45px 0 0 30px;
+  z-index: 54;
+}
+.rectangle-1f6cc {
+  position: absolute;
+  width: 640px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #87b04a;
+  z-index: 55;
+  border-radius: 10px;
+}
+.rectangle-206cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background: #93a9d1;
+  z-index: 56;
+  border-radius: 10px 0 0 10px;
+}
+.rectangle-216cc {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 590px;
+  background: #93a9d1;
+  transform: rotate(180deg);
+  z-index: 57;
+  border-radius: 10px 0 0 10px;
+}
+.referencias6cc {
+  position: absolute;
+  width: 520px;
+  height: 60px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  left: 70px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  background: transparent;
+  border: none;
+  z-index: 58;
+}
+.chevron-right-icon-226cc {
+  position: absolute;
+  width: 18.206px;
+  height: 36px;
+  top: 12px;
+  left: 606px;
+  z-index: 59;
+}
+.vector-236cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/avancar.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 60;
+}
+.number-76cc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 12px;
+  left: 12px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 61;
+}
+.group-246cc {
+  position: relative;
+  width: 640.274px;
+  height: 40px;
+  margin: 88px 0 0 30px;
+  z-index: 62;
+}
+.chevron-right-icon-256cc {
+  position: absolute;
+  width: 24.275px;
+  height: 40px;
+  top: 0;
+  left: 616px;
+  z-index: 63;
+}
+.vector-266cc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/7088059a-41d4-44cf-a8a0-0e1d1e49f4ae.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 64;
+}
+.chevron-right-icon-276cc {
+  position: absolute;
+  width: 3.79%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  background: url(../assets/images/0ae2889f-f539-42b6-b799-2efc850f44c6.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 65;
+}
+.rectangle-286cc {
+  position: absolute;
+  width: 700px;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+}
+.group-296cc {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 630px;
+  font-size: 0px;
+  z-index: 3;
+}
+.number-6-2a6cc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 16px;
+  height: 29px;
+  margin: 6px 0 0 12px;
+  color: #d9d9d9;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.ellipse6cc {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/bf3726bd-4a25-457a-9b61-e2c45c5a26fc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 50%;
+}
+.rectangle-2b6cc {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  top: 20px;
+  left: 0;
+  background: #88b04b;
+  z-index: 1;
+}
+.summary-26cc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 34px;
+  top: 20px;
+  left: 100px;
+  color: #66648b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}

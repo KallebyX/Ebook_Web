@@ -1,0 +1,102 @@
+/* Importa as fontes Montserrat do arquivo fonts.css */
+@import url('/src/assets/fonts/Montserrat/font.css');
+
+/* Reset básico para garantir consistência */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Tamanho padrão para texto */
+}
+
+/* Container principal */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Navegação */
+.navigation-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.button-wrapper {
+  cursor: pointer;
+  margin: 0 15px; /* Espaçamento ajustado para melhor toque em dispositivos móveis */
+}
+
+.button-wrapper img {
+  width: auto; /* Permite que a imagem mantenha sua proporção */
+  height: 40px; /* Altura fixa mantida */
+}
+
+/* Ajustes de fonte */
+.numero-pagina, h1, .titulo-capa, h2, .titulo-controle-sintomas, .texto-colaboradores, .nome-autora-capa, .titulo-capa-black, .titulo-capa-regular {
+  font-weight: var(--fw-regular);
+  font-size: calc(1rem + 1vw); /* Tamanho de fonte responsivo */
+}
+
+/* Estilos de interação */
+.logo:hover, .logo.react:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Animação do logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Consultas de mídia para ajustes responsivos */
+@media (max-width: 768px) {
+  .navigation-buttons {
+    bottom: 5px; /* Menos espaço no fundo para dispositivos menores */
+  }
+
+  .button-wrapper {
+    margin: 0 8px; /* Menor espaçamento entre botões */
+  }
+
+  .button-wrapper img {
+    height: 35px; /* Botões um pouco menores para caber melhor */
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation-buttons {
+    position: fixed; /* Fixa a navegação na parte inferior em dispositivos móveis */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center; /* Centraliza botões na tela */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo sutil para melhorar a visibilidade */
+    padding: 10px 0; /* Padding para evitar sobreposição com o conteúdo da página */
+    transform: none; /* Desativa a transformação que centraliza */
+  }
+
+  .button-wrapper img {
+    height: 30px; /* Torna os botões ainda menores para economizar espaço */
+  }
+}
