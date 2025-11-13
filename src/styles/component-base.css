@@ -1,0 +1,383 @@
+/* ============================================
+   ESTILOS BASE PARA COMPONENTES DE PÁGINA
+   Classes reutilizáveis para todos os componentes
+   ============================================ */
+
+/* === CONTAINER PRINCIPAL DE PÁGINA === */
+.main-container-base {
+  position: relative;
+  width: 700px;
+  max-width: 100vw;
+  height: auto;
+  min-height: 1000px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+  background: var(--color-bg-primary);
+  overflow: visible;
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+  transition: all var(--transition-normal);
+}
+
+/* === ELEMENTOS COMUNS === */
+.page-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/* === IMAGENS DECORATIVAS === */
+.decorative-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.decorative-image-positioned {
+  position: absolute;
+  max-width: 80%;
+  height: auto;
+}
+
+/* === CÍRCULOS E ELIPSES === */
+.ellipse-base {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* === RETÂNGULOS E BOXES === */
+.rectangle-base {
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+}
+
+/* === GRUPOS DE CONTEÚDO === */
+.content-group {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* === BOTÕES INTERATIVOS === */
+.interactive-button {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+  background: var(--color-secondary);
+  color: var(--color-white);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.interactive-button:hover {
+  background: var(--color-secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.interactive-button:active {
+  transform: translateY(0);
+}
+
+.interactive-button:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+/* === CARDS CLICÁVEIS (para sumário) === */
+.card-button {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+  background: var(--color-secondary);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-lg);
+  width: 100%;
+  max-width: 640px;
+  margin: var(--spacing-md) auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-button:hover {
+  background: var(--color-secondary-dark);
+  transform: translateX(5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-button:active {
+  transform: translateX(2px);
+}
+
+/* === TEXTOS === */
+.text-primary {
+  font-family: var(--font-family-primary);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-relaxed);
+}
+
+.text-secondary {
+  font-family: var(--font-family-primary);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+.text-large {
+  font-size: clamp(var(--font-size-lg), 3vw, var(--font-size-2xl));
+  font-weight: var(--font-weight-bold);
+}
+
+.text-title {
+  font-size: clamp(var(--font-size-xl), 4vw, var(--font-size-3xl));
+  font-weight: var(--font-weight-black);
+  line-height: var(--line-height-tight);
+}
+
+/* === VÍDEOS E ÁUDIOS RESPONSIVOS === */
+.media-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: var(--spacing-lg) auto;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.media-wrapper video,
+.media-wrapper audio {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--border-radius-md);
+}
+
+/* Aspect ratio para vídeos */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* === NÚMEROS DE PÁGINA === */
+.page-number-container {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  border-radius: var(--border-radius-full);
+  margin: var(--spacing-md) auto;
+}
+
+.page-number {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+}
+
+/* ============================================
+   MEDIA QUERIES - TABLET
+   ============================================ */
+@media (max-width: 768px) {
+  .main-container-base {
+    width: 90vw;
+    min-height: auto;
+    padding: var(--spacing-md);
+  }
+
+  .content-group {
+    max-width: 100%;
+    padding: var(--spacing-sm);
+  }
+
+  .card-button {
+    padding: var(--spacing-md);
+    max-width: 100%;
+  }
+
+  .decorative-image-positioned {
+    max-width: 90%;
+  }
+
+  .text-title {
+    font-size: clamp(var(--font-size-lg), 5vw, var(--font-size-2xl));
+  }
+
+  .text-large {
+    font-size: clamp(var(--font-size-md), 4vw, var(--font-size-xl));
+  }
+}
+
+/* ============================================
+   MEDIA QUERIES - MOBILE
+   ============================================ */
+@media (max-width: 480px) {
+  .main-container-base {
+    width: 95vw;
+    min-height: 100vh;
+    padding: var(--spacing-sm);
+    padding-bottom: calc(var(--nav-button-size-mobile) + var(--spacing-2xl) + var(--spacing-xl));
+  }
+
+  .content-group {
+    padding: var(--spacing-xs);
+  }
+
+  .card-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+
+  .card-button:hover {
+    transform: scale(0.98);
+  }
+
+  .decorative-image-positioned {
+    position: relative;
+    max-width: 100%;
+    margin: var(--spacing-md) auto;
+  }
+
+  .interactive-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: var(--font-size-sm);
+  }
+
+  .text-title {
+    font-size: clamp(var(--font-size-md), 6vw, var(--font-size-xl));
+  }
+
+  .text-large {
+    font-size: clamp(var(--font-size-sm), 5vw, var(--font-size-lg));
+  }
+
+  .text-primary {
+    font-size: var(--font-size-sm);
+  }
+
+  .page-number-container {
+    width: 50px;
+    height: 50px;
+  }
+
+  .page-number {
+    font-size: var(--font-size-xl);
+  }
+
+  /* Ajusta vídeos e áudios */
+  .media-wrapper {
+    margin: var(--spacing-md) 0;
+  }
+
+  .video-container {
+    padding-bottom: 75%; /* Aspect ratio mais quadrado para mobile */
+  }
+}
+
+/* ============================================
+   POSICIONAMENTO RESPONSIVO
+   ============================================ */
+
+/* Converte posições absolutas em relativas em mobile */
+@media (max-width: 480px) {
+  .main-container-base [style*="position: absolute"] {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    margin: var(--spacing-sm) auto;
+  }
+}
+
+/* ============================================
+   ANIMAÇÕES DE ENTRADA
+   ============================================ */
+.animate-fade-in {
+  animation: fadeIn var(--animation-duration-medium) var(--ease-out);
+}
+
+.animate-slide-up {
+  animation: slideUp var(--animation-duration-medium) var(--ease-out);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   ESTADOS DE FOCO PARA ACESSIBILIDADE
+   ============================================ */
+.interactive-button:focus-visible,
+.card-button:focus-visible,
+.nav-button:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+/* Remove outline quando não é necessário */
+.interactive-button:focus:not(:focus-visible),
+.card-button:focus:not(:focus-visible),
+.nav-button:focus:not(:focus-visible) {
+  outline: none;
+}

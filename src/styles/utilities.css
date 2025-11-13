@@ -1,0 +1,416 @@
+/* ============================================
+   CLASSES UTILITÁRIAS - RESPONSIVIDADE
+   Classes reutilizáveis para todo o sistema
+   ============================================ */
+
+/* === CONTAINERS RESPONSIVOS === */
+.responsive-container {
+  width: var(--container-width-desktop);
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: var(--color-bg-primary);
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all var(--transition-normal);
+}
+
+/* Container principal de página */
+.page-container {
+  width: var(--container-width-desktop);
+  height: var(--container-height-desktop);
+  max-width: 100vw;
+  margin: 0 auto;
+  position: relative;
+  background: var(--color-bg-primary);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: var(--spacing-md);
+}
+
+/* === TIPOGRAFIA RESPONSIVA === */
+.text-responsive {
+  font-size: clamp(var(--font-size-sm), 2.5vw, var(--font-size-md));
+  line-height: var(--line-height-normal);
+}
+
+.heading-responsive {
+  font-size: clamp(var(--font-size-xl), 4vw, var(--font-size-3xl));
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+}
+
+.title-responsive {
+  font-size: clamp(var(--font-size-lg), 3vw, var(--font-size-2xl));
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-medium);
+}
+
+/* === IMAGENS RESPONSIVAS === */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* === BOTÕES RESPONSIVOS === */
+.btn-responsive {
+  padding: clamp(var(--spacing-sm), 2vw, var(--spacing-md))
+           clamp(var(--spacing-md), 3vw, var(--spacing-xl));
+  font-size: clamp(var(--font-size-sm), 2vw, var(--font-size-md));
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-responsive:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-responsive:active {
+  transform: translateY(0);
+}
+
+/* === ESPAÇAMENTOS RESPONSIVOS === */
+.spacing-xs { margin: var(--spacing-xs); }
+.spacing-sm { margin: var(--spacing-sm); }
+.spacing-md { margin: var(--spacing-md); }
+.spacing-lg { margin: var(--spacing-lg); }
+.spacing-xl { margin: var(--spacing-xl); }
+
+.padding-xs { padding: var(--spacing-xs); }
+.padding-sm { padding: var(--spacing-sm); }
+.padding-md { padding: var(--spacing-md); }
+.padding-lg { padding: var(--spacing-lg); }
+.padding-xl { padding: var(--spacing-xl); }
+
+/* === FLEXBOX UTILITIES === */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* === GRID UTILITIES === */
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+}
+
+/* === POSICIONAMENTO === */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+/* === VISIBILIDADE === */
+.hidden-mobile {
+  display: block;
+}
+
+.hidden-tablet {
+  display: block;
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+.show-mobile {
+  display: none;
+}
+
+/* === NAVEGAÇÃO === */
+.nav-buttons {
+  position: absolute;
+  bottom: var(--nav-bottom-offset-desktop);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: var(--nav-button-spacing);
+  z-index: var(--z-index-navigation);
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+  background: transparent;
+  padding: var(--spacing-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-sm);
+}
+
+.nav-button:hover {
+  transform: scale(1.1);
+}
+
+.nav-button:active {
+  transform: scale(0.95);
+}
+
+.nav-button:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.nav-button img {
+  width: auto;
+  height: var(--nav-button-size-desktop);
+  display: block;
+}
+
+/* === ACESSIBILIDADE === */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus-visible:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+/* === ANIMAÇÕES === */
+.fade-in {
+  animation: fadeIn var(--animation-duration-medium) var(--ease-in-out);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in-up {
+  animation: slideInUp var(--animation-duration-medium) var(--ease-out);
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft var(--animation-duration-medium) var(--ease-out);
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.scale-in {
+  animation: scaleIn var(--animation-duration-short) var(--ease-out);
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ============================================
+   MEDIA QUERIES - RESPONSIVIDADE
+   ============================================ */
+
+/* === TABLET (481px - 768px) === */
+@media (max-width: 768px) {
+  .page-container {
+    width: var(--container-width-tablet);
+    height: var(--container-height-tablet);
+    min-height: 100vh;
+    padding: var(--spacing-lg);
+  }
+
+  .responsive-container {
+    width: var(--container-width-tablet);
+  }
+
+  .grid-2-cols,
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .hidden-tablet {
+    display: none;
+  }
+
+  .nav-buttons {
+    bottom: var(--nav-bottom-offset-tablet);
+  }
+
+  .nav-button img {
+    height: var(--nav-button-size-tablet);
+  }
+}
+
+/* === MOBILE (0 - 480px) === */
+@media (max-width: 480px) {
+  .page-container {
+    width: var(--container-width-mobile);
+    height: auto;
+    min-height: 100vh;
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+
+  .responsive-container {
+    width: var(--container-width-mobile);
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+
+  /* Navegação fixa no mobile */
+  .nav-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+    justify-content: center;
+    background: var(--color-bg-overlay);
+    padding: var(--spacing-sm) 0;
+    border-top: var(--border-width-thin) solid var(--color-gray-light);
+    backdrop-filter: blur(10px);
+  }
+
+  .nav-button img {
+    height: var(--nav-button-size-mobile);
+  }
+
+  /* Adiciona padding no final da página para não sobrepor o conteúdo */
+  .page-container {
+    padding-bottom: calc(var(--nav-button-size-mobile) + var(--spacing-xl) + var(--spacing-xl));
+  }
+
+  /* Ajusta texto para mobile */
+  .text-responsive {
+    font-size: var(--font-size-sm);
+  }
+
+  .heading-responsive {
+    font-size: var(--font-size-xl);
+  }
+
+  .title-responsive {
+    font-size: var(--font-size-lg);
+  }
+}
+
+/* === LARGE DESKTOP (1280px+) === */
+@media (min-width: 1280px) {
+  .page-container {
+    max-width: var(--container-max-width);
+  }
+}
+
+/* === PREFERÊNCIAS DO USUÁRIO === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Modo escuro (preparação futura) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Variáveis para modo escuro podem ser adicionadas aqui no futuro */
+  }
+}

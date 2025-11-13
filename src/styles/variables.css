@@ -1,0 +1,196 @@
+/* ============================================
+   VARIÁVEIS CSS GLOBAIS - DESIGN SYSTEM
+   Sistema de design responsivo para Ebook_Web
+   ============================================ */
+
+:root {
+  /* === CORES === */
+  /* Cores primárias */
+  --color-primary: #93a9d1;
+  --color-primary-dark: #7a8fb8;
+  --color-primary-light: #b4c7e7;
+
+  /* Cores secundárias */
+  --color-secondary: #87b04a;
+  --color-secondary-dark: #6d9038;
+  --color-secondary-light: #a0c76a;
+
+  /* Cores neutras */
+  --color-text-primary: #111111;
+  --color-text-secondary: #66648b;
+  --color-text-light: #d9d9d9;
+  --color-white: #ffffff;
+  --color-gray-light: #d9d9d9;
+  --color-gray-medium: #999999;
+  --color-gray-dark: #666666;
+
+  /* Cores de fundo */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #93a9d1;
+  --color-bg-overlay: rgba(255, 255, 255, 0.95);
+
+  /* === TIPOGRAFIA === */
+  /* Famílias de fonte */
+  --font-family-primary: 'Montserrat', -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+
+  /* Tamanhos de fonte - Base */
+  --font-size-base: 18px;
+
+  /* Tamanhos de fonte - Desktop */
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 35px;
+  --font-size-4xl: 42px;
+
+  /* Pesos de fonte */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* Altura de linha */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+
+  /* === ESPAÇAMENTO === */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  --spacing-3xl: 4rem;     /* 64px */
+
+  /* === LAYOUT === */
+  /* Larguras máximas */
+  --container-max-width: 1280px;
+  --page-max-width: 700px;
+  --page-height: 1000px;
+
+  /* Larguras responsivas */
+  --container-width-desktop: 700px;
+  --container-width-tablet: 90vw;
+  --container-width-mobile: 95vw;
+
+  /* Alturas responsivas */
+  --container-height-desktop: 1000px;
+  --container-height-tablet: auto;
+  --container-height-mobile: auto;
+
+  /* === BREAKPOINTS === */
+  /* Definidos como comentários para referência */
+  /* Mobile: 0-480px */
+  /* Tablet: 481-768px */
+  /* Desktop: 769px+ */
+  /* Large Desktop: 1280px+ */
+
+  /* === BORDAS E RAIOS === */
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  --border-radius-xl: 20px;
+  --border-radius-full: 50%;
+
+  /* Larguras de borda */
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 3px;
+
+  /* === SOMBRAS === */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+
+  /* === TRANSIÇÕES === */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+
+  /* Funções de easing */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+
+  /* === Z-INDEX === */
+  --z-index-base: 1;
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-fixed: 300;
+  --z-index-modal-backdrop: 400;
+  --z-index-modal: 500;
+  --z-index-popover: 600;
+  --z-index-tooltip: 700;
+  --z-index-navigation: 1000;
+
+  /* === NAVEGAÇÃO === */
+  --nav-button-size-desktop: 40px;
+  --nav-button-size-tablet: 35px;
+  --nav-button-size-mobile: 30px;
+
+  --nav-button-spacing: 15px;
+  --nav-bottom-offset-desktop: 20px;
+  --nav-bottom-offset-tablet: 15px;
+  --nav-bottom-offset-mobile: 10px;
+
+  /* === ACESSIBILIDADE === */
+  --focus-outline: 2px solid var(--color-secondary);
+  --focus-outline-offset: 2px;
+
+  /* === ANIMAÇÕES === */
+  --animation-duration-short: 200ms;
+  --animation-duration-medium: 400ms;
+  --animation-duration-long: 600ms;
+}
+
+/* ============================================
+   VARIÁVEIS RESPONSIVAS
+   ============================================ */
+
+/* Tablet e menor */
+@media (max-width: 768px) {
+  :root {
+    /* Ajusta tamanhos de fonte */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 28px;
+    --font-size-4xl: 32px;
+
+    /* Ajusta espaçamentos */
+    --spacing-xl: 1.5rem;
+    --spacing-2xl: 2rem;
+    --spacing-3xl: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  :root {
+    /* Ajusta tamanhos de fonte */
+    --font-size-xs: 11px;
+    --font-size-sm: 13px;
+    --font-size-md: 15px;
+    --font-size-lg: 17px;
+    --font-size-xl: 19px;
+    --font-size-2xl: 22px;
+    --font-size-3xl: 26px;
+    --font-size-4xl: 30px;
+
+    /* Ajusta espaçamentos */
+    --spacing-md: 0.75rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.25rem;
+    --spacing-2xl: 1.5rem;
+    --spacing-3xl: 2rem;
+  }
+}

@@ -1,3 +1,7 @@
+/* Importa estilos base */
+@import url('../../styles/variables.css');
+@import url('../../styles/component-base.css');
+
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -6,13 +10,17 @@
 }
 
 .main-container1 {
-  overflow: hidden;
   position: relative;
   width: 700px;
-  height: 1000px;
+  max-width: 100vw;
+  height: auto;
+  min-height: 1000px;
   margin: 0 auto;
-  font-size: 0px;
   background: #ffffff;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
 }
 
 input,
@@ -30,85 +38,94 @@ button {
 .heloisa-catto-dal1 {
   display: block;
   position: relative;
-  height: 43px;
-  margin: 30px 0 0 30px;
+  margin: var(--spacing-lg) 0 0 var(--spacing-lg);
   color: #d9d9d9;
   font-family: Montserrat, var(--default-font-family);
-  font-size: 35px;
+  font-size: clamp(var(--font-size-xl), 5vw, var(--font-size-3xl));
   font-weight: 700;
-  line-height: 42.665px;
+  line-height: var(--line-height-tight);
   text-align: left;
-  white-space: nowrap;
   z-index: 6;
+  transition: font-size var(--transition-normal);
 }
 
 .rectangle1 {
   position: absolute;
-  width: 700px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   background: #93a9d1;
+  z-index: 0;
 }
 
 .group1 {
-  position: absolute;
-  width: 640px;
-  height: 839px;
-  top: 50%;
-  left: 30px;
-  transform: translate(0, -50.06%);
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-md);
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
 }
 
 .prancheta-copia1 {
-  position: absolute;
-  width: 362px;
-  height: 335px;
-  top: 0;
-  left: 278px;
+  position: relative;
+  width: 100%;
+  max-width: 362px;
+  height: auto;
+  aspect-ratio: 362 / 335;
   background: url(../../assets/images/9b5e7a14-999a-47dd-8349-8ecc127e7ead.png)
     no-repeat center;
-  background-size: cover;
+  background-size: contain;
   z-index: 4;
+  margin: 0 auto;
 }
 
 .ellipse1 {
-  position: absolute;
-  width: 516px;
-  height: 516px;
-  top: 168px;
-  left: 124px;
+  position: relative;
+  width: 100%;
+  max-width: 516px;
+  height: auto;
+  aspect-ratio: 1;
   background: url(src/assets/images/Ellipse6.png)
     no-repeat center;
-  background-size: cover;
+  background-size: contain;
   z-index: 2;
   border-radius: 50%;
+  margin: var(--spacing-xl) auto;
 }
 
 .e-book1 {
-  position: absolute;
-  width: 445px;
-  height: 116px;
-  top: 368px;
-  left: 159px;
+  position: relative;
+  width: 100%;
+  max-width: 445px;
+  margin: var(--spacing-lg) auto;
   font-family: Montserrat, var(--default-font-family);
-  font-size: 24px;
+  font-size: clamp(var(--font-size-lg), 3.5vw, var(--font-size-xl));
   font-weight: 900;
-  line-height: 29.256px;
-  text-align: right;
+  line-height: var(--line-height-normal);
+  text-align: center;
   z-index: 5;
+  padding: 0 var(--spacing-md);
 }
 
 .cuidando-de-quem-amamos1,
 .e-book-interativo1 {
   position: relative;
-  color: #111111; /* for cuidando-de-quem-amamos */
   font-family: Montserrat, var(--default-font-family);
-  font-size: 24px;
-  font-weight: 900; /* and 400 for e-book-interativo */
-  line-height: 29.256px;
-  text-align: right;
+  font-size: clamp(var(--font-size-lg), 3.5vw, var(--font-size-xl));
+  line-height: var(--line-height-normal);
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.cuidando-de-quem-amamos1 {
+  color: #111111;
+  font-weight: 900;
 }
 
 .e-book-interativo1 {
@@ -117,26 +134,94 @@ button {
 }
 
 .prancheta-copia-11 {
-  position: absolute;
-  width: 357px;
-  height: 361px;
-  top: 478px;
-  left: 0;
+  position: relative;
+  width: 100%;
+  max-width: 357px;
+  height: auto;
+  aspect-ratio: 357 / 361;
   background: url(../../assets/images/b17cd621-7cb0-4cef-9535-9ab49f6140d9.png.png)
     no-repeat center;
-  background-size: cover;
+  background-size: contain;
   z-index: 3;
-}
-.prancheta-copia-21 {
-  position: absolute;
-  width: 150px;
-  height: 160px;
-  top: 810px;
-  left: 520px;
-  background: url('../../assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png') no-repeat center;
-  background-size: cover;
-  z-index: 0;
+  margin: var(--spacing-lg) auto;
 }
 
-/* Estilos adicionais podem ser necessários para os outros elementos */
+.prancheta-copia-21 {
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  aspect-ratio: 150 / 160;
+  background: url('../../assets/images/01c2955d-8103-44a4-903a-8f9fc2974b22.png') no-repeat center;
+  background-size: contain;
+  z-index: 5;
+  margin: var(--spacing-xl) auto var(--spacing-2xl);
+}
+
+/* ============================================
+   MEDIA QUERIES - TABLET
+   ============================================ */
+@media (max-width: 768px) {
+  .main-container1 {
+    width: 90vw;
+    min-height: auto;
+    padding: var(--spacing-md);
+  }
+
+  .heloisa-catto-dal1 {
+    margin: var(--spacing-md) auto;
+    text-align: center;
+  }
+
+  .group1 {
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+  }
+
+  .e-book1 {
+    font-size: clamp(var(--font-size-md), 4vw, var(--font-size-lg));
+  }
+}
+
+/* ============================================
+   MEDIA QUERIES - MOBILE
+   ============================================ */
+@media (max-width: 480px) {
+  .main-container1 {
+    width: 95vw;
+    min-height: 100vh;
+    padding: var(--spacing-sm);
+    padding-bottom: calc(var(--nav-button-size-mobile) + var(--spacing-3xl));
+  }
+
+  .heloisa-catto-dal1 {
+    margin: var(--spacing-md) auto;
+    text-align: center;
+    font-size: clamp(var(--font-size-lg), 6vw, var(--font-size-2xl));
+  }
+
+  .group1 {
+    gap: var(--spacing-sm);
+    padding: var(--spacing-xs);
+    margin: var(--spacing-md) auto;
+  }
+
+  .prancheta-copia1,
+  .ellipse1,
+  .prancheta-copia-11,
+  .prancheta-copia-21 {
+    max-width: 90%;
+  }
+
+  .e-book1 {
+    font-size: clamp(var(--font-size-sm), 5vw, var(--font-size-md));
+    padding: 0 var(--spacing-sm);
+  }
+
+  .cuidando-de-quem-amamos1,
+  .e-book-interativo1 {
+    font-size: clamp(var(--font-size-sm), 5vw, var(--font-size-md));
+    text-align: center;
+  }
+}
 

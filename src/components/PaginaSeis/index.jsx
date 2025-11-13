@@ -97,22 +97,25 @@ export default function PaginaSeis() {
       </div>
       <div className='rectangle-2b6cc' />
       <span className='summary-26cc'>SUMÁRIO</span>
-        {/* Botões de navegação com estilos inline conforme solicitado */}
-        <div style={{ width: '700px', position: 'absolute', bottom: '15px', left: '50%', transform: 'translateX(-50%)', zIndex: '1000' }}>
-        <img
-          src={voltarImg}
-          alt="Voltar"
+        {/* Botões de navegação acessíveis */}
+      <div className='navigation-buttons'>
+        <button
+          className='button-wrapper'
           onClick={voltarPagina}
-          style={{ cursor: 'pointer', marginRight: '600px' }}
-        />
-        <img
-          src={avancarImg}
-          alt="Avançar"
+          aria-label="Voltar para página anterior"
+          title="Página anterior"
+        >
+          <img src={voltarImg} alt="" aria-hidden="true" />
+        </button>
+        <button
+          className='button-wrapper'
           onClick={avancarPagina}
-          style={{ cursor: 'pointer' }}
-        />
+          aria-label="Avançar para próxima página"
+          title="Próxima página"
+        >
+          <img src={avancarImg} alt="" aria-hidden="true" />
+        </button>
       </div>
     </div>
-    
   );
 }
