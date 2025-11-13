@@ -1,3 +1,7 @@
+/* Importa estilos base */
+@import url('../../styles/variables.css');
+@import url('../../styles/component-base.css');
+
 :root {
     --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -24,7 +28,9 @@
   .main-container18 {
     position: relative;
     width: 700px;
-    height: 1000px;
+  max-width: 100vw;
+    height: auto;
+  min-height: 1000px;
     margin: 0 auto;
     background: #ffffff;
     overflow: hidden;
@@ -120,7 +126,9 @@
   .rectangle-318 {
     position: absolute;
     width: 700px;
-    height: 1000px;
+  max-width: 100vw;
+    height: auto;
+  min-height: 1000px;
     top: 0;
     left: 0;
     background: #d9d9d9;
@@ -271,4 +279,35 @@
     text-align: center;
     z-index: 5;
   }
-  
+
+
+/* ============================================
+   RESPONSIVIDADE - TABLET
+   ============================================ */
+@media (max-width: 768px) {
+  [class*="main-container"] {
+    width: 90vw !important;
+    max-width: 100vw !important;
+    min-height: auto !important;
+    padding: var(--spacing-md) !important;
+  }
+}
+
+/* ============================================
+   RESPONSIVIDADE - MOBILE
+   ============================================ */
+@media (max-width: 480px) {
+  [class*="main-container"] {
+    width: 95vw !important;
+    max-width: 100vw !important;
+    min-height: 100vh !important;
+    padding: var(--spacing-sm) !important;
+    padding-bottom: calc(var(--nav-button-size-mobile) + var(--spacing-3xl)) !important;
+  }
+
+  /* Converte posições fixas em relativas */
+  [class*="main-container"] [style*="position: absolute"] {
+    position: relative !important;
+    margin: var(--spacing-sm) auto !important;
+  }
+}

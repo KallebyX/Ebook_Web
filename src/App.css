@@ -1,59 +1,187 @@
-/* Importa as fontes Montserrat do arquivo fonts.css */
+/* ============================================
+   APP.CSS - ESTILOS GLOBAIS RESPONSIVOS
+   Importa variáveis e utilidades CSS
+   ============================================ */
+
+/* Importa as fontes Montserrat */
 @import url('/src/assets/fonts/Montserrat/font.css');
 
-/* Reset básico para garantir consistência */
+/* Importa variáveis CSS */
+@import url('./styles/variables.css');
+
+/* Importa utilitários CSS */
+@import url('./styles/utilities.css');
+
+/* ============================================
+   RESET E ESTILOS BASE
+   ============================================ */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px; /* Tamanho padrão para texto */
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  overflow-x: hidden;
 }
 
-/* Container principal */
+/* ============================================
+   CONTAINER PRINCIPAL (#ROOT)
+   ============================================ */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
 }
 
-/* Navegação */
+/* ============================================
+   TIPOGRAFIA GLOBAL
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: var(--font-size-3xl);
+}
+
+h2 {
+  font-size: var(--font-size-2xl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Classes de tipografia específicas do projeto */
+.numero-pagina,
+.titulo-capa,
+.titulo-controle-sintomas,
+.texto-colaboradores,
+.nome-autora-capa,
+.titulo-capa-black,
+.titulo-capa-regular {
+  font-family: var(--font-family-primary);
+  font-size: clamp(var(--font-size-lg), 3vw, var(--font-size-2xl));
+  line-height: var(--line-height-normal);
+}
+
+.titulo-capa-black {
+  font-weight: var(--font-weight-black);
+}
+
+.titulo-capa-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+/* ============================================
+   NAVEGAÇÃO GLOBAL
+   ============================================ */
 .navigation-buttons {
   position: absolute;
-  bottom: 10px;
+  bottom: var(--nav-bottom-offset-desktop);
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  gap: var(--nav-button-spacing);
+  z-index: var(--z-index-navigation);
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-normal);
 }
 
 .button-wrapper {
   cursor: pointer;
-  margin: 0 15px; /* Espaçamento ajustado para melhor toque em dispositivos móveis */
+  transition: all var(--transition-fast);
+  border: none;
+  background: transparent;
+  padding: var(--spacing-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-sm);
+  position: relative;
+}
+
+.button-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.button-wrapper:active {
+  transform: scale(0.95);
+}
+
+.button-wrapper:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.button-wrapper:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .button-wrapper img {
-  width: auto; /* Permite que a imagem mantenha sua proporção */
-  height: 40px; /* Altura fixa mantida */
+  width: auto;
+  height: var(--nav-button-size-desktop);
+  display: block;
+  transition: all var(--transition-fast);
 }
 
-/* Ajustes de fonte */
-.numero-pagina, h1, .titulo-capa, h2, .titulo-controle-sintomas, .texto-colaboradores, .nome-autora-capa, .titulo-capa-black, .titulo-capa-regular {
-  font-weight: var(--fw-regular);
-  font-size: calc(1rem + 1vw); /* Tamanho de fonte responsivo */
+/* ============================================
+   ELEMENTOS INTERATIVOS
+   ============================================ */
+button,
+a {
+  transition: all var(--transition-fast);
 }
 
-/* Estilos de interação */
-.logo:hover, .logo.react:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
-/* Animação do logo */
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-secondary-dark);
+  text-decoration: underline;
+}
+
+/* ============================================
+   ANIMAÇÕES GLOBAIS
+   ============================================ */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -69,34 +197,143 @@ body {
   }
 }
 
-/* Consultas de mídia para ajustes responsivos */
-@media (max-width: 768px) {
-  .navigation-buttons {
-    bottom: 5px; /* Menos espaço no fundo para dispositivos menores */
-  }
+/* Animação de entrada de página */
+.page-enter {
+  animation: pageEnter var(--animation-duration-medium) var(--ease-out);
+}
 
-  .button-wrapper {
-    margin: 0 8px; /* Menor espaçamento entre botões */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-
-  .button-wrapper img {
-    height: 35px; /* Botões um pouco menores para caber melhor */
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (max-width: 480px) {
+/* ============================================
+   MEDIA QUERIES - TABLET
+   ============================================ */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  #root {
+    padding: 0;
+  }
+
   .navigation-buttons {
-    position: fixed; /* Fixa a navegação na parte inferior em dispositivos móveis */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    justify-content: center; /* Centraliza botões na tela */
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo sutil para melhorar a visibilidade */
-    padding: 10px 0; /* Padding para evitar sobreposição com o conteúdo da página */
-    transform: none; /* Desativa a transformação que centraliza */
+    bottom: var(--nav-bottom-offset-tablet);
+    gap: calc(var(--nav-button-spacing) * 0.8);
   }
 
   .button-wrapper img {
-    height: 30px; /* Torna os botões ainda menores para economizar espaço */
+    height: var(--nav-button-size-tablet);
   }
+
+  h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-xl);
+  }
+}
+
+/* ============================================
+   MEDIA QUERIES - MOBILE
+   ============================================ */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    font-size: var(--font-size-sm);
+  }
+
+  /* Navegação fixa no mobile */
+  .navigation-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+    justify-content: center;
+    background: var(--color-bg-overlay);
+    padding: var(--spacing-sm) 0;
+    border-top: var(--border-width-thin) solid var(--color-gray-light);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-wrapper img {
+    height: var(--nav-button-size-mobile);
+  }
+
+  h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-lg);
+  }
+
+  h3 {
+    font-size: var(--font-size-md);
+  }
+}
+
+/* ============================================
+   PREFERÊNCIAS DE ACESSIBILIDADE
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  button,
+  .button-wrapper {
+    border: var(--border-width-medium) solid currentColor;
+  }
+}
+
+/* ============================================
+   UTILIDADES ESPECÍFICAS DO PROJETO
+   ============================================ */
+.container-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* Loading state */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Error state */
+.error {
+  color: #dc2626;
+  font-weight: var(--font-weight-medium);
 }
